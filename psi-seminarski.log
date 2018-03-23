@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6530)  (format=lualatex 2018.1.13)  23 MAR 2018 11:30
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6530)  (format=lualatex 2018.1.13)  23 MAR 2018 17:43
  restricted system commands enabled.
 **psi-seminarski.tex
 (./psi-seminarski.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.594 seconds
+luaotfload | main : initialization completed in 0.606 seconds
 Babel <3.16> and hyphenation patterns for 1 language(s) loaded.
 ("F:/Program Files (x86)/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1521,43 +1521,34 @@ r.luc) [1
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1] [2] [3] [4] (./psi-seminarski.bbl) [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 232.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 232.
  (./psi-seminarski.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
-
-
-Package rerunfilecheck Warning: File `psi-seminarski.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `psi-seminarski.out':
-(rerunfilecheck)             Before: E1FF40D173BA30ECD93D407F4B832106;536
-(rerunfilecheck)             After:  CB566EA374D00D8E4211CEB31905788D;551.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 232.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 232.
+Package rerunfilecheck Info: File `psi-seminarski.out' has not changed.
+(rerunfilecheck)             Checksum: 15E60D40BF6F0C3D10DCBF95EB266DB6;707.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 232.
 )
 
 Here is how much of LuaTeX's memory you used:
- 38481 strings out of 494438
+ 38484 strings out of 494438
  100000,1373583 words of node,token memory allocated
  490 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 6 attribute, 58 glue_spec, 6 attrib
 ute_list, 1 write nodes
-   avail lists: 1:1,2:225,3:64,4:34,5:183,6:24,7:2343,8:16,9:94,10:13,11:243
- 41529 multiletter control sequences out of 65536+200000
+   avail lists: 1:1,2:265,3:66,4:42,5:184,6:28,7:2343,8:18,9:108,10:13,11:243
+ 41531 multiletter control sequences out of 65536+200000
  49 fonts using 6862847 bytes
  62i,11n,96p,940b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
-
-warning  (pdf backend): unreferenced destination with name 'subsection.2.3'
 <f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman12-regular.ot
 f><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman12-italic.o
 tf><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold.ot
 f><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmromancaps10-regu
 lar.otf>
-Output written on psi-seminarski.pdf (6 pages, 37059 bytes).
+Output written on psi-seminarski.pdf (6 pages, 40968 bytes).
 
-PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 131072)
- 80 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 118 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 131072)
+ 96 words of extra memory for PDF output out of 10000 (max. 100000000)
 
