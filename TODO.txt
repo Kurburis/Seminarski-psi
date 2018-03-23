@@ -1,0 +1,36 @@
+1. Motivacija 
+
+2. Konceptualni dizajn
+-objasniti ko jasmina
+
+2.1. Indentifikacija potreba (Suad)
+- prodaje se van naseg regiona, mislimmo da bi se dobro prodavao u nasem regionu
+- konsultacije sa vlasnicima kafica (ispitivanje trzista)
+
+2.2 Analiza izvodljivosti (Suad)
+-Spomenuti 3d printer kao podlogu za masinu
+-vrhovi za printanje
+(obicni printer, prskalica/sprica, airbrush)
+
+2.3 Analiza zahjteva za sistem
+Operationak requirements
+-30 sekundi vrijeme printanja
+-rezolucija, preciznost
+-velicina - kompaktnost
+-80 printanja po danu 
+Maintenance and support requirments
+-jednostavno za koristenje
+-popravke kroz zamjenu dijelova 
+-lagana dijagnostika
+-modularno i lagano za popravku za korisnike (idnetifikacija svih mogucih kvarova) - napraviti manual
+-odredjeni period besplatna popravka, nakon toga naplacuje
+-Manufacture and constructability
+
+2.4 Lista zahtjeva
+-lijep
+-brz
+-pozdan
+-precizan
+-jeftin
+
+2.5 Tehnicke mjere performanse
