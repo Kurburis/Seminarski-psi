@@ -1,0 +1,206 @@
+
+              
+\documentclass[12pt]{article}
+\usepackage[bosnian]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{slike/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\usepackage{filecontents}
+\usepackage{hyperref}%za hyperlinkove
+\usepackage{pgfplots}%ZA TIKZ
+\usepackage{tikzscale}%ZA TIKZ
+\usepackage{fontspec}
+\usepackage{epsfig}%ZA SVG SLIKE
+\usepackage{epstopdf}%ZA SVG SLIKE
+\usepackage{svg}%ZA SVG SLIKE
+\usepackage{multirow}% da tabele mogu imati spojene redove
+\usepackage{float} %da kontrolisanje izbacivanja figura i tabela
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+
+\newcommand{\MONTH}{%
+  \ifcase\the\month
+  \or Januar% 1
+  \or Februar% 2
+  \or Mart% 3
+  \or April% 4
+  \or Maj% 5
+  \or Juni% 6
+  \or Juli% 7
+  \or August% 8
+  \or Septembar% 9
+  \or Oktobar% 10
+  \or Novembar% 11
+  \or Decembar% 12
+  \fi}
+\newcommand{\kurs}{Principi sistemskog inženjeringa}
+\newcommand{\indeks}{1151/16743}
+\title{Seminarski rad}                             				% Naslov ovdje promijeniti
+\author{Eldar Kurtić\\Suad Krilašević}                               % Autora(e) ovdje staviti
+\date{\MONTH, \the\year}                                           % 
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+    \centering
+    \vspace*{0.5 cm}
+    %\includegraphics[scale = 0.75]{UCT.jpg}\\[1.0 cm]   % University Logo
+    \textsc{\LARGE Elektrotehnički fakultet u Sarajevu}\\[2.0 cm]   
+    \textsc{\Large \kurs}\\[0.5 cm]               
+    \rule{\linewidth}{0.2 mm} \\[0.4 cm]%izbirsati ovo ako želimo bez linije
+    { \huge \bfseries \thetitle}\\
+    \rule{\linewidth}{0.2 mm} \\[1.5 cm]%izbirsati ovo ako želimo bez linije
+    \vfill
+    \begin{minipage}{0.4\textwidth}
+        \begin{flushleft} \large
+            \emph{Student:}\\
+            \theauthor
+            \end{flushleft}
+            \end{minipage}~
+            \begin{minipage}{0.4\textwidth}
+            \begin{flushright} \large
+            \emph{Indeks:} \\
+            \indeks                                   
+        \end{flushright}
+    \end{minipage}\\[2 cm]
+    
+    {\large \thedate}\\[2 cm]
+
+    
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                       KORISNE INFORMACIJE ZA SVG I TIKZ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%        TIKZ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Tikz se koristi za vektorsko plotanje matlab plotova. Mnogo bolje grafici izgledaju koristenjem tikz-a, ali mogu znatno usporiti kompajliranje za veliki broj tacaka. Vise na https://github.com/matlab2tikz/matlab2tikz
+%ZA UKLJUČIVANJE TIKZ PLOTOVA
+%\includegraphics[width = \linewidth]{proba.tikz}
+
+% PROBLEMI SA TIKZ-om
+
+% 1. Preklapanje ylabel sa brojevima
+% 2. Nema potrebnih biblioteka
+
+% RJESENJA:
+
+% 1. dodati ovo pri vrhu .tikz fajla \pgfplotsset{compat=newest}
+% 2. dodati u vrhu dokumenta
+% \usepackage{pgfplots}%ZA TIKZ
+% \usepackage{tikzscale}%ZA TIKZ
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%        SVG
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Koristi se za vektorske slike tipa svg. Ne gubi se kvaliteta zumiranjem ili kompresijom. Po meni (Suadu), bolje kvalitet slike nego .eps formata
+
+%ZA UKLJUČIVANJE SVG SLIKA !!!!!!STARO!!!!!! (ako se ne koristi Inkscape)
+%\includesvg[svgpath = folder_gdje_su_slike/, width=0.x\textwidth]{ime slike bez ekstenzije}
+%Ako se koristi TexMaker, kako bi se moglo kompajlirati, configure texmaker prozor treba ovako da izgleda http://pokit.org/get/?e27c3834947146aecc847ab6f56ffa41.png
+
+%ZA UKLJUČIVANJE SVG SLIKA NOVO
+
+% 1. Praviti svg slike pomocu inkscape-a. Kod spasavanja kao pdf oznaciti latex opciju. 
+% 2. Dodati sliku u dokument koristeci naredbu 
+
+% \begin{figure}
+    % \centering
+    % \def\svgwidth{0.x\columnwidth}
+    % \input{ime_fajla.pdf_tex}
+    % \caption{}
+    % \label{}
+% \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Motivacija}
+\section{Konceptualni dizajn}
+\subsection{Identifikacija potreba}
+
+Prema definiciji Oxfordovog rječnika engleskog jezika, selfie je fotografija gdje mi uslikamo samog sebe, najčešće koristeći pametni telefon ili web kameru kako bi podijelili tu fotografiju na društvenim medijima. Mada je sada rano praviti prognoze, selfie će ostaviti veliki trag na kulturu ljudi 21. vijeka i bit će zapamćen kao kulturološki fenomen našeg doba. 
+
+Velikoj većini omladine, selfiji su postali svakodnevnica, te mnogo branše industrije to gledaju da iskoriste. Npr. postojanje prednje kamere na pametnim telefonima i njen kvalitet je direktno uslovljeno kulturom selfija, tj. selfiji su imali ogroman uticaj na razvoj današnjih pametnih telefona. Također mnoge kompanije gledaju da iskoriste selfije u svojim reklamnim kampanjama kako bi svoje proizvode približili omladini. 
+
+Jedan od uređaja koji želi da iskoristi popularnost selfija jeste "Selfie Coffee Printer" koji trenutno proizvodi kompanije Cino iz Kine. Uređaj može da isprinta bilo koju fotografiju na površinu kafe (pa time i selfije). Na taj način nastaje takozvani "Selfieccino". 
+
+Prateći novinske članke, što se tiče Europe, jedino je kafić u Londonu kupio tu mašinu, te prema tvrdnjama vlasnika za 3 dana je kafić posjetilo 400 mušterija samo kako bi probali selfieccino i podijelili svoje selfie sa selficcinom na društvenim medijima. Očigledno, jedna takva mašina, osim što daje besplatnu promociju kafiću, povećava mu i profit, barem u prvom periodu dok je taj proizvod još svjež.
+
+Tu mi vidimo priliku za mogući profit. Smatramo da bi bilo moguće napraviti "Selfie Coffee Printer" (u nastavku SCP) jeftiniji od trenutnog na tržištu, te ga uspješno prodati kafićima u našem regionu.
+
+\subsection{Analiza izvodljivosti}
+SCP se sastoji iz dva dijela:
+\begin{enumerate}
+\item Mehanizma za pomjeranje vrha za printanje
+\item Vrh za printanje
+\item Tinta za printanje
+\end{enumerate}
+
+\subsubsection{Mehanizma za pomjeranje vrha za printanje}
+Zadatak mehanizma jeste da pozicionira vrh za printanje na potrebu poziciju kod površine kafe. Mehanizam mora biti dovoljno precizan da može isprintati svaki piksel slike na kafi za zadatu rezoluciju. Jedino rješenje koje se nameće jeste pravljenje mehanizma na isti način kao što 3d printer imaju mehanizam za printanje, tj. korištenje 3 stepper motora za svaku dimenziju prostora. Mada treća dimenzija možda izgleda suvišno, dodavanjem treće dimenzije moguće bi bilo printati za razne profile čaša za kafu.
+
+\subsubsection{Vrh za printanje}
+Kod vrha za printanje postoji nekoliko mogućih alternativa:
+\begin{itemize}
+\item šprice 
+\item inkjet tehnologija
+\item airbrush
+\end{itemize}
+
+Prva alternativa jeste korištenje šprica sličnih kao što se koriste u medicni za ispuštanje boje na površinu kafe. Intuicijom, a i testiranjem te metode je pokazano da su početne kapljice prevelike da budu korisne u printanju.
+
+Druga alternativa jeste korištenje postojećih inkjet tehnologija uz jestivu tintu za printanje po površini kafe. Međutim, programiranje inkjet tonera kada da isupuštaju tintu ili rastavljanje postojećih printera kako bi se koristila njihova tehnologija ne predstavlja dobru opciju zbog velikih troškova kupovine printera i velike ovisnosti od software-a proizvođača printera.
+
+Zadnja alternativa izgleda najviše isplativa, tj. korištenje airbrush tehnologije za ispuštanje malih količina tinte. 
+
+\subsubsection{Tinta za printanje}
+
+Glavni uslov za tintu jeste da mora biti jestiva. Pošto će se koristiti airbursh tehnologija, potencijalno se može koristiti i suha tinta, tj. recimo sitno samljevena zrna kafe. Na taj način korisnici ne bi morali kupovati dodatnu tintu nakon kupovine proizvoda što je veliki plus za ukupni proizvod. Odluka o tome koja vrsta tinte će se koristiti će pasti u sljedećim fazama razvoja proizvoda, kada se analiziraju obje vrste tinte.
+
+\newpage
+\renewcommand{\refname}{Izvori}
+\bibliographystyle{plain}
+\addcontentsline{toc}{section}{Izvori}
+\nocite{*}
+\bibliography{lit}
+
+\end{document}
+%modifikovao suad              
+            
+

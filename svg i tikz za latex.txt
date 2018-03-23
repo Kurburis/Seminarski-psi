@@ -1,0 +1,84 @@
+﻿%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                       KORISNE INFORMACIJE ZA SVG I TIKZ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%        TIKZ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Tikz se koristi za vektorsko plotanje matlab plotova. Mnogo bolje grafici izgledaju koristenjem tikz-a, ali mogu znatno usporiti kompajliranje za veliki broj tacaka. Vise na https://github.com/matlab2tikz/matlab2tikz
+%ZA UKLJUČIVANJE TIKZ PLOTOVA
+%\includegraphics[width = \linewidth]{proba.tikz}
+
+% PROBLEMI SA TIKZ-om
+
+% 1. Preklapanje ylabel sa brojevima
+% 2. Nema potrebnih biblioteka
+
+% RJESENJA:
+
+% 1. dodati ovo pri vrhu .tikz fajla \pgfplotsset{compat=newest}
+% 2. dodati u vrhu dokumenta
+% \usepackage{pgfplots}%ZA TIKZ
+% \usepackage{tikzscale}%ZA TIKZ
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%        SVG
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Koristi se za vektorske slike tipa svg. Ne gubi se kvaliteta zumiranjem ili kompresijom. Po meni (Suadu), bolje kvalitet slike nego .eps formata
+
+%ZA UKLJUČIVANJE SVG SLIKA !!!!!!STARO!!!!!! (ako se ne koristi Inkscape)
+%\includesvg[svgpath = folder_gdje_su_slike/, width=0.x\textwidth]{ime slike bez ekstenzije}
+%Ako se koristi TexMaker, kako bi se moglo kompajlirati, configure texmaker prozor treba ovako da izgleda http://pokit.org/get/?e27c3834947146aecc847ab6f56ffa41.png
+
+%ZA UKLJUČIVANJE SVG SLIKA NOVO
+
+% 1. Praviti svg slike pomocu inkscape-a. Kod spasavanja kao pdf oznaciti latex opciju. 
+% 2. Dodati sliku u dokument koristeci naredbu 
+
+% \begin{figure}
+    % \centering
+    % \def\svgwidth{0.x\columnwidth}
+    % \input{ime_fajla.pdf_tex}
+    % \caption{}
+    % \label{}
+% \end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Korisne informacije za INKSCAPE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Nije bitna velicina teksta posto ce uvijek biti deafultna. Gornji lijevi cosak teksta u inkscape-u odgovara srednjoj tacki lijevog ruba u latexu
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Kako koristiti blibitex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Pogledati zadnje linije fajla
+% OBAVEZNO koristiti AND za radvajanje imena autora!!!
+% Kako bi se kompajlirala literatura, kompajlirati jednom standardno, onda jednom preko biblitexa, pa onda dva puta standardano
+
+%Moze ovakva struktura
+%\bibliographystyle{plain}
+%\addcontentsline{toc}{section}{Literatura} % Da se doda literatura u table of contents
+%\nocite{*} %Da se citiraju svi izvori iz bib fajla
+%\bibliography{lit} %lit ime bib fajla koji se koristi 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Formule
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Kako bi se se razdvojile formule u vise redova, a da svaka bude numerisana, koristi se \begin{align}
+%Kako bi se jedna formula stavila u vise redova koristi se \begin{split} u equation okruzenju. U oba slucaja je & koristi za poravnanje (novi red sa \\ poslije drugog i ostalih &)
+%Npr.
+%\begin{align}
+%	C_0 &= V^2 \mathrm{sin}\lambda - bg\mathrm{cos}\lambda\\
+%	A_2 &= J C_0\\
+%	A_1 &= DVg \\
+%	A_0 &= mg^2(bh \mathrm{cos}\lambda - ac \mathrm{sin}\lambda)\\
+%	B_1 &= \frac{DVb}{acm}\\
+%	B_0 &= \frac{b(Vh^2 - acg)}{ac} 
+%\end{align}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
