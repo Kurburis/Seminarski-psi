@@ -12,13 +12,13 @@
 -vrhovi za printanje
 (obicni printer, prskalica/sprica, airbrush)
 
-2.3 Analiza zahjteva za sistem
-Operationak requirements
+2.3 Analiza zahjteva za sistem 
+Operationak requirements (Suad)
 -30 sekundi vrijeme printanja
 -rezolucija, preciznost
 -velicina - kompaktnost
 -80 printanja po danu 
-Maintenance and support requirments
+Maintenance and support requirments (Suad)
 -jednostavno za koristenje
 -popravke kroz zamjenu dijelova 
 -lagana dijagnostika
