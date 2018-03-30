@@ -1,6 +1,6 @@
-1. Motivacija 
+1. Motivacija (Eldar)
 
-2. Konceptualni dizajn
+2. Konceptualni dizajn (Eldar)
 -objasniti ko jasmina
 
 2.1. Indentifikacija potreba (Suad)
@@ -26,7 +26,7 @@ Maintenance and support requirments (Suad)
 -odredjeni period besplatna popravka, nakon toga naplacuje
 -Manufacture and constructability
 
-2.4 Lista zahtjeva
+2.4 Lista zahtjeva (Eldar)
 -lijep
 -brz
 -pozdan

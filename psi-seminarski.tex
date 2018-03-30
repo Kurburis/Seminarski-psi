@@ -16,7 +16,7 @@
 \usepackage{pgfplots}%ZA TIKZ
 \usepackage{tikzscale}%ZA TIKZ
 \usepackage{fontspec}
-\usepackage{epsfig}%ZA SVG SLIKE
+%\usepackage{epsfig}%ZA SVG SLIKE %ELDAR KOMENTARISAO / nije mi se moglo kompajlirati s ovim cudom
 \usepackage{epstopdf}%ZA SVG SLIKE
 \usepackage{svg}%ZA SVG SLIKE
 \usepackage{multirow}% da tabele mogu imati spojene redove
@@ -46,7 +46,7 @@
   \or Decembar% 12
   \fi}
 \newcommand{\kurs}{Principi sistemskog inženjeringa}
-\newcommand{\indeks}{1151/16743}
+\newcommand{\indeks}{1150/16575 \\ 1151/16743}
 \title{Seminarski rad}                             				% Naslov ovdje promijeniti
 \author{Eldar Kurtić\\Suad Krilašević}                               % Autora(e) ovdje staviti
 \date{\MONTH, \the\year}                                           % 
@@ -151,7 +151,44 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Motivacija}
+U decembru 2017. godine, u Londonskom kafi\'cu \textit{Tea Terrace}, otvoren je prvi kafi\'c u Evropi sa veoma neobi\v{c}nim napitkom pod nazivom \textit{selfieccino}. Naime, rije\v{c} je o potpuno novom pristupu pripreme kafe koji je odu\v{s}evio mnoge pripadnike nove generacije. Ova neobi\v{c}na kreacija omogu\'cava da se gostima poslu\v{z}i kafa sa njihovim vlastitim portretom. Ideja je veoma jednostavna, na pjeni \v{s}oljice kafe koju gost naru\v{c}i printa se njegov portret. Primjer jednog \textit{selfieccina} je prikazan na slici \ref{slika_1}.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.3]{slika_1}
+\caption{\textit{Selfieccino} kafa}
+\label{slika_1}
+\end{figure}
+
+Gosti putem aplikacije \v{s}alju svoju sliku ili neki tekst osoblju kafi\'ca koji onda za njih pripremaju ovaj neobi\v{c}ni napitak. Procedura izrade napitka traje \v{c}etiri minute, a cijena koju gosti trebaju platiti za ovo neobi\v{c}no pi\'ce je $5.75$ funti. Iako je cijena \textit{selfieccina} malo ve\'ca od prosje\v{c}ne cijene kafe, osoblje kafi\'ca je izjavilo da su prvi dan imali preko $400$ gostiju koji su tu do\v{s}li samo zbog ove inovacije.
+
+Ideja za ovakav pristup pripremi kafe, prema rije\v{c}ima vlasnika kafi\'ca, je bila \v{z}elja da se spoje dvije itekako popularne stvari u \v{z}ivotu mladih - kafa i \textit{selfie}. Slično grčkom mitu o Narcissusu, čovjeku koji je bio tako uznemiren kada je vidio svoj odraz u jezeru da se odmah zaljubio, \textit{selfieccino} gostima omogućava da gledaju svoje lice dok ispijaju svoj omiljeni topli napitak [citirati https://www.bustle.com/p/what-is-a-selfieccino-you-can-order-a-drink-with-your-face-on-it-at-this-london-cafe-7685582]. Vlasnik kafi\'ca, Ehab Salem Shouly, je izjavio za Reuters: "Nije dovoljno samo pružiti sjajnu hranu i odličnu uslugu - to mora biti vrijedno Instagrama". Ova izjava je autore ovog rada motivisala da probaju istu ideju implementirati na svoj na\v{c}in i u svom gradu. 
+
 \section{Konceptualni dizajn}
+
+Konceptualni dizajn predstavlja prvi korak u procesu dizajna i razvoja sistema. U ovoj fazi se vrši identifikacija potreba, definišu se zahtjevi za potencijalno rješenje, zatim se potencijalna rješenja ocjenjuju i na osnovu toga se razvija specifikacija sistema. Specifikacija sistema predstavlja tehničke zahtjeve koji u potpunosti utiču na daljnji tok dizajna sistema. Kako ovaj dokument određuje cjelokupni budući razvoj, navedena faza ne može biti završena sve dok se ne utvrdi da specifikacije sistema adekvatno adresiraju identifikovane potrebe.
+
+Klju\v{c}ni koraci u procesu konceptualnog dizajna su:
+\begin{itemize}
+\item identifikacija potreba,
+\item analiza izvodljivosti,
+\item analiza zahtjeva za sistem,
+\item specifikacija sistema,
+\item pregled idejnog rje\v{s}enja. %[citirati "System lifecycle" https://en.wikipedia.org/wiki/System_lifecycle#Conceptual_design].
+\end{itemize}
+
+Neka od pitanja koja mogu biti korisna u fazi konceptualnog dizajna su:
+\begin{itemize}
+\item Koliko truda treba ulo\v{z}iti u idejno rje\v{s}enje?
+\item Koji koncept treba da bude osnova dizajna? 
+\item Koju tehnologiju za dati podsistem treba odabrati?
+\item Koji postoje\'ci hardver i softver treba koristiti?
+\item Da li je predvi\dj eni koncept tehni\v{c}ki izvodi na osnovu tro\v{s}kova, rasporeda i performanse?
+\item Da li su potrebna dodatna istra\v{z}ivanja prije nego se donese kona\v{c}na odluka? %citirati D. M. Buede, "The engineering design of system Models and methods", John Wiley & Sons, 2009
+\end{itemize}
+
+Za potrebe izrade seminarskog rada odabran je printer \textit{selfieccina}. U narednim poglavljima će biti opisane detaljne faze u okviru konceptualnog dizajna za predloženi sistem.
+
 \subsection{Identifikacija potreba}
 
 Prema definiciji Oxfordovog rječnika engleskog jezika, selfie je fotografija gdje mi uslikamo samog sebe, najčešće koristeći pametni telefon ili web kameru kako bi podijelili tu fotografiju na društvenim medijima. Mada je sada rano praviti prognoze, selfie će ostaviti veliki trag na kulturu ljudi 21. vijeka i bit će zapamćen kao kulturološki fenomen našeg doba. 
@@ -160,7 +197,7 @@ Velikoj većini omladine, selfiji su postali svakodnevnica, te mnogo branše ind
 
 Jedan od uređaja koji želi da iskoristi popularnost selfija jeste "Selfie Coffee Printer" koji trenutno proizvodi kompanije Cino iz Kine. Uređaj može da isprinta bilo koju fotografiju na površinu kafe (pa time i selfije). Na taj način nastaje takozvani "Selfieccino". 
 
-Prateći novinske članke, što se tiče Europe, jedino je kafić u Londonu kupio tu mašinu, te prema tvrdnjama vlasnika za 3 dana je kafić posjetilo 400 mušterija samo kako bi probali selfieccino i podijelili svoje selfie sa selficcinom na društvenim medijima. Očigledno, jedna takva mašina, osim što daje besplatnu promociju kafiću, povećava mu i profit, barem u prvom periodu dok je taj proizvod još svjež.
+Prateći novinske članke, što se tiče Europe, jedino je kafić u Londonu kupio tu mašinu, te prema tvrdnjama vlasnika prvi dan je kafić posjetilo 400 mušterija samo kako bi probali selfieccino i podijelili svoje selfie sa selficcinom na društvenim mre\v{z}ama. Očigledno, jedna takva mašina, osim što daje besplatnu promociju kafiću, povećava mu i profit, barem u prvom periodu dok je taj proizvod još svjež.
 
 Tu mi vidimo priliku za mogući profit. Smatramo da bi bilo moguće napraviti "Selfie Coffee Printer" (u nastavku SCP) jeftiniji od trenutnog na tržištu, te ga uspješno prodati kafićima u našem regionu.
 
@@ -173,25 +210,25 @@ SCP se sastoji iz dva dijela:
 \end{enumerate}
 
 \subsubsection{Mehanizma za pomjeranje vrha za printanje}
-Zadatak mehanizma jeste da pozicionira vrh za printanje na potrebu poziciju kod površine kafe. Mehanizam mora biti dovoljno precizan da može isprintati svaki piksel slike na kafi za zadatu rezoluciju. Jedino rješenje koje se nameće jeste pravljenje mehanizma na isti način kao što 3d printer imaju mehanizam za printanje, tj. korištenje 3 stepper motora za svaku dimenziju prostora. Mada treća dimenzija možda izgleda suvišno, dodavanjem treće dimenzije moguće bi bilo printati za razne profile čaša za kafu.
+Zadatak mehanizma jeste da pozicionira vrh za printanje na potrebnu poziciju kod površine kafe. Mehanizam mora biti dovoljno precizan da može isprintati svaki piksel slike na kafi za zadatu rezoluciju. Jedino rješenje koje se nameće jeste pravljenje mehanizma na isti način kao što 3D printeri imaju mehanizam za printanje, tj. korištenje 3 steper motora za svaku dimenziju prostora. Mada treća dimenzija možda izgleda suvišno, dodavanjem treće dimenzije moguće bi bilo printati za razne profile čaša za kafu.
 
 \subsubsection{Vrh za printanje}
 Kod vrha za printanje postoji nekoliko mogućih alternativa:
 \begin{itemize}
-\item šprice 
-\item inkjet tehnologija
-\item airbrush
+\item šprice,
+\item inkjet tehnologija,
+\item airbrush.
 \end{itemize}
 
 Prva alternativa jeste korištenje šprica sličnih kao što se koriste u medicni za ispuštanje boje na površinu kafe. Intuicijom, a i testiranjem te metode je pokazano da su početne kapljice prevelike da budu korisne u printanju.
 
-Druga alternativa jeste korištenje postojećih inkjet tehnologija uz jestivu tintu za printanje po površini kafe. Međutim, programiranje inkjet tonera kada da isupuštaju tintu ili rastavljanje postojećih printera kako bi se koristila njihova tehnologija ne predstavlja dobru opciju zbog velikih troškova kupovine printera i velike ovisnosti od software-a proizvođača printera.
+Druga alternativa jeste korištenje postojećih inkjet tehnologija uz jestivu tintu za printanje po površini kafe. Međutim, programiranje inkjet tonera kada da ispuštaju tintu ili rastavljanje postojećih printera kako bi se koristila njihova tehnologija ne predstavlja dobru opciju zbog velikih troškova kupovine printera i velike ovisnosti od softvera proizvođača printera.
 
-Zadnja alternativa izgleda najviše isplativa, tj. korištenje airbrush tehnologije za ispuštanje malih količina tinte. 
+Zadnja alternativa izgleda najisplativija, tj. korištenje airbrush tehnologije za ispuštanje malih količina tinte. 
 
 \subsubsection{Tinta za printanje}
 
-Glavni uslov za tintu jeste da mora biti jestiva. Pošto će se koristiti airbursh tehnologija, potencijalno se može koristiti i suha tinta, tj. recimo sitno samljevena zrna kafe. Na taj način korisnici ne bi morali kupovati dodatnu tintu nakon kupovine proizvoda što je veliki plus za ukupni proizvod. Odluka o tome koja vrsta tinte će se koristiti će pasti u sljedećim fazama razvoja proizvoda, kada se analiziraju obje vrste tinte.
+Glavni uslov za tintu jeste da mora biti jestiva. Pošto će se koristiti airbursh tehnologija, potencijalno se može koristiti i suha tinta, tj. recimo sitno samljevena zrna kafe. Na taj način korisnici ne bi morali kupovati dodatnu tintu nakon kupovine proizvoda što je veliki plus za ukupni proizvod. Odluka o tome koja vrsta tinte će se koristiti će biti donesena u sljedećim fazama razvoja proizvoda, kada se analiziraju obje vrste tinte.
 
 \subsection{Analiza zahtjeva za sistem}
 \subsubsection{Operativni zahtjevi}
@@ -203,21 +240,21 @@ Sistem će se koristiti u ugostiteljskim objektima.
 Kako bi ostvario već ranije definisane potrebe, sistem treba biti jeftiniji od već postojećih sistema.
 
 \textbf{Koji su to kritični sistemski parametri potrebni za ostvarenje misije?}\\
-Kritični parametri koji definišu SCP su
+Kritični parametri koji definišu SCP su:
 \begin{itemize}
 \item Vrijeme printanja
 \item Rezolucija
 \item Preciznost
 \end{itemize}
 
-\textbf{U kojoj mjeri će sistem biti korišten}\\
-Kako bi se sistem koristio u kafićima treba biti sposoban da radi svih 7 dana u sedmici, sa prosječnim brojem isprintanih kafa po danu jednakim 100.
+\textbf{U kojoj mjeri će sistem biti korišten?}\\
+Kako bi se sistem koristio u kafićima treba biti sposoban da radi svih 7 dana u sedmici, sa prosječnim brojem od 100 isprintanih kafa po danu.
 
 \textbf{Koliko efikasan sistem mora biti?}\\
-Najviše bitni parametri vezani za efikasnost su srednje vrijeme između kvarova (MTBF), srednje vrijeme perioda dok je sistem izvan funkcije (MDT) i srednje vrijeme između održavanja (MTBM). U nastavku će ovi parametri biti bolje definisani.
+Najbitniji parametri vezani za efikasnost su srednje vrijeme između kvarova (MTBF), srednje vrijeme perioda dok je sistem izvan funkcije (MDT) i srednje vrijeme između održavanja (MTBM). U nastavku će ovi parametri biti bolje definisani.
 
 \textbf{Koliko dugo će korisnik koristiti sistem?}\\
-Kako bi sistem bio primamljiv za kupovinu, bilo bi potrebno da se može koristiti barem godinu dana (tj. da garancija traje godinu dana).
+Kako bi sistem bio primamljiv za kupovinu, potrebno je da se može koristiti barem godinu dana (tj. da garancija traje godinu dana).
 
 \textbf{Koji su zahtjevi na okolinu u kojoj će sistem operisati?}\\
 Pošto će se ovaj sistem koristi u ugostiteljskim objektima gdje se temperatura održava u ugodnom opsegu od 15°C do 25°C, to je također i temperaturni opseg u kojem treba da funkcioniše i sistem.
@@ -227,8 +264,27 @@ Pošto će se ovaj sistem koristi u ugostiteljskim objektima gdje se temperatura
 Sistem će se popravljati i održavati na mjestu gdje se i koristi, te će popratna dokumentacija kao i jednostavnost sistema omogućiti to da sami korisnik može raditi popravku sistema.
 
 \textbf{Kakve usluge popravke i podrške će pružati proizvođač?}\\
-U slučaju većih kvarova, zbog modularnosti sistema, proizvođač će poslati zamjenske module kako bi se popravio kvar. 
+U slučaju većih kvarova, zbog modularnosti sistema, proizvođač će poslati zamjenske module kako bi se popravio kvar.  
 
+\subsection{Dodatni zahtjevi}
+Pored prethodno pomenutih zahtijeva u ovom poglavlju \'ce biti opisani dodatni zahtijevi koji \'ce biti smjernice prilikom dizajna sistema printera \textit{selfieccina}. Koliko god obra\'cali pa\v{z}nju na performanse sistema, implementaciju efikasnih algoritama za pretvaranje slike u koordinate za printanje kontura lica, optimizaciju kretanja vrha printera potrebno je obratiti pa\v{z}nju na zahtijeve koji su veoma bitni krajnjim korisnicima proizvoda, tj. onima koji ne znaju i koje ne zanima \v{s}ta se to de\v{s}ava unutar printera i mikrokontrolera koji njime upravlja ve\'c ono \v{s}to je vidljivo ljudskom oku i \v{s}to \v{c}ini kupce zadovoljnim.
+
+Neki od tih zahtijeva su:
+\begin{itemize}
+\item lijep i modernisti\v{c}ki dizajn printera,
+\item brzina izrade napitka,
+\item preciznost u printanju slike,
+\item niska cijena.
+\end{itemize}
+
+Koliko god dobar algoritam bio u pozadini printera, ono \v{s}to u kona\v{c}nici predstavlja jedan od najbitnijih faktora za prodaju proizvoda je lijep i modernisti\v{c}ki dizajn. Vlasnici kafi\'ca, koji su potencijalni kupci printera, moraju ste\'ci dojam da je printer adekvatan za prostoriju u kojoj ga planiraju koristiti. Printer treba imati takav dizajn da se uklapa u interijer svih objekata u kojima bi se trebao koristiti, jer i pored toga \v{s}to je proces pripremanja ovog neobi\v{c}nog napitka itekako zanimljiv bitan je vanjski izgled koji \'ce dodatno uticati na faktor odu\v{s}evljenja.
+
+Vrijeme je novac, izreka je koja je motivacija za postizanje \v{s}to ve\'ce brzine izrade napitka. Ovo je veoma bitan faktor ovog sistema, jer u dana\v{s}njem veoma dinami\v{c}nom na\v{c}inu \v{z}ivota vlasnik kafi\'ca ne \v{z}eli da korisnici moraju potro\v{s}iti puno vremena \v{c}ekaju\'ci svoj \textit{selfieccino} jer i pored svega to je ipak samo obi\v{c}na kafa.
+
+Preciznost u printanju slike predstavlja jedan od najbitnijih zahtijeva u dizajnu ovog sistema. Ciljno tr\v{z}i\v{s}te ovog sistema su korisnici koji \'ce namjenski dolaziti u kafi\'c sa \textit{selfieccino} printerom i ba\v{s} zbog toga treba se potruditi da dobiju ono zbog \v{c}ega su i do\v{s}li, kvalitetno isprintan \textit{selfie} na pjeni njihovog toplog napitka.
+
+Cijena, kao i u svakom drugom segmentu poslovnog \v{z}ivota, predstavlja jedan od bitnih faktora u dizajnu sistema. Niska cijena printera  ali i samog procesa izrade \textit{selfieccina} je faktor koji \'ce znatno olak\v{s}ati proces komercijalizacije sistema, te zbog toga \'ce ovaj zahtijev biti jedna od glavnih vodilja prilikom procesa dizajna i izrade printera.
+ 
  
 \newpage
 \renewcommand{\refname}{Izvori}
