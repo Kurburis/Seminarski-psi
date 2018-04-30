@@ -33,4 +33,4 @@ Maintenance and support requirments (Suad)
 -precizan
 -jeftin
 
-2.5 Tehnicke mjere performanse
+2.5 Tehnicke mjere performanse.

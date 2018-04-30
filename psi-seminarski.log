@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.6.19)  30 MAR 2018 23:33
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.6.19)  30 APR 2018 11:12
 entering extended mode
 **./psi-seminarski.tex
 (psi-seminarski.tex
@@ -1314,22 +1314,28 @@ Overfull \hbox (0.4085pt too wide) in paragraph at lines 253--255
 eđu kvarova (MTBF),
  []
 
-[6] [7] [8] (psi-seminarski.bbl) [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+[6] [7]
+File: hoq.png Graphic file (type QTm)
+ <use  "hoq.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] [9] (psi-seminarski.bbl) [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
  (psi-seminarski.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 296.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 316.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 316.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 39345 strings out of 427899
- 890442 string characters out of 3153117
- 1073898 words of memory out of 3000000
- 42740 multiletter control sequences out of 15000+200000
+ 39348 strings out of 427899
+ 890461 string characters out of 3153117
+ 1074939 words of memory out of 3000000
+ 42742 multiletter control sequences out of 15000+200000
  7522 words of font info for 41 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,12n,96p,10417b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on psi-seminarski.pdf (10 pages).
+Output written on psi-seminarski.pdf (11 pages).
