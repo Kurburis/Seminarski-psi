@@ -21,6 +21,8 @@
 \usepackage{svg}%ZA SVG SLIKE
 \usepackage{multirow}% da tabele mogu imati spojene redove
 \usepackage{float} %da kontrolisanje izbacivanja figura i tabela
+
+
 \hypersetup{
     colorlinks,
     citecolor=black,
@@ -164,6 +166,8 @@ Gosti putem aplikacije \v{s}alju svoju sliku ili neki tekst osoblju kafi\'ca koj
 
 Ideja za ovakav pristup pripremi kafe, prema rije\v{c}ima vlasnika kafi\'ca, je bila \v{z}elja da se spoje dvije itekako popularne stvari u \v{z}ivotu mladih - kafa i \textit{selfie}. Slično grčkom mitu o Narcissusu, čovjeku koji je bio tako uznemiren kada je vidio svoj odraz u jezeru da se odmah zaljubio, \textit{selfieccino} gostima omogućava da gledaju svoje lice dok ispijaju svoj omiljeni topli napitak [citirati https://www.bustle.com/p/what-is-a-selfieccino-you-can-order-a-drink-with-your-face-on-it-at-this-london-cafe-7685582]. Vlasnik kafi\'ca, Ehab Salem Shouly, je izjavio za Reuters: "Nije dovoljno samo pružiti sjajnu hranu i odličnu uslugu - to mora biti vrijedno Instagrama". Ova izjava je autore ovog rada motivisala da probaju istu ideju implementirati na svoj na\v{c}in i u svom gradu. 
 
+\newpage
+
 \section{Konceptualni dizajn}
 
 Konceptualni dizajn predstavlja prvi korak u procesu dizajna i razvoja sistema. U ovoj fazi se vrši identifikacija potreba, definišu se zahtjevi za potencijalno rješenje, zatim se potencijalna rješenja ocjenjuju i na osnovu toga se razvija specifikacija sistema. Specifikacija sistema predstavlja tehničke zahtjeve koji u potpunosti utiču na daljnji tok dizajna sistema. Kako ovaj dokument određuje cjelokupni budući razvoj, navedena faza ne može biti završena sve dok se ne utvrdi da specifikacije sistema adekvatno adresiraju identifikovane potrebe.
@@ -189,6 +193,8 @@ Neka od pitanja koja mogu biti korisna u fazi konceptualnog dizajna su:
 
 Za potrebe izrade seminarskog rada odabran je printer \textit{selfieccina}. U narednim poglavljima će biti opisane detaljne faze u okviru konceptualnog dizajna za predloženi sistem.
 
+\newpage
+
 \subsection{Identifikacija potreba}
 
 Prema definiciji Oxfordovog rječnika engleskog jezika, selfie je fotografija gdje mi uslikamo samog sebe, najčešće koristeći pametni telefon ili web kameru kako bi podijelili tu fotografiju na društvenim medijima. Mada je sada rano praviti prognoze, selfie će ostaviti veliki trag na kulturu ljudi 21. vijeka i bit će zapamćen kao kulturološki fenomen našeg doba. 
@@ -208,6 +214,8 @@ SCP se sastoji iz dva dijela:
 \item Vrh za printanje
 \item Tinta za printanje
 \end{enumerate}
+
+\newpage
 
 \subsubsection{Mehanizma za pomjeranje vrha za printanje}
 Zadatak mehanizma jeste da pozicionira vrh za printanje na potrebnu poziciju kod površine kafe. Mehanizam mora biti dovoljno precizan da može isprintati svaki piksel slike na kafi za zadatu rezoluciju. Jedino rješenje koje se nameće jeste pravljenje mehanizma na isti način kao što 3D printeri imaju mehanizam za printanje, tj. korištenje 3 steper motora za svaku dimenziju prostora. Mada treća dimenzija možda izgleda suvišno, dodavanjem treće dimenzije moguće bi bilo printati za razne profile čaša za kafu.
@@ -229,6 +237,8 @@ Zadnja alternativa izgleda najisplativija, tj. korištenje airbrush tehnologije 
 \subsubsection{Tinta za printanje}
 
 Glavni uslov za tintu jeste da mora biti jestiva. Pošto će se koristiti airbursh tehnologija, potencijalno se može koristiti i suha tinta, tj. recimo sitno samljevena zrna kafe. Na taj način korisnici ne bi morali kupovati dodatnu tintu nakon kupovine proizvoda što je veliki plus za ukupni proizvod. Odluka o tome koja vrsta tinte će se koristiti će biti donesena u sljedećim fazama razvoja proizvoda, kada se analiziraju obje vrste tinte.
+
+\newpage
 
 \subsection{Analiza zahtjeva za sistem}
 \subsubsection{Operativni zahtjevi}
@@ -259,6 +269,8 @@ Kako bi sistem bio primamljiv za kupovinu, potrebno je da se može koristiti bar
 \textbf{Koji su zahtjevi na okolinu u kojoj će sistem operisati?}\\
 Pošto će se ovaj sistem koristi u ugostiteljskim objektima gdje se temperatura održava u ugodnom opsegu od 15°C do 25°C, to je također i temperaturni opseg u kojem treba da funkcioniše i sistem.
 
+\newpage
+
 \subsection{Zahtjevi za održavanje i podršku}
 \textbf{Gdje će se raditi, na koji način i ko će biti odgovaran za održavanje i popravka sistema?}\\
 Sistem će se popravljati i održavati na mjestu gdje se i koristi, te će popratna dokumentacija kao i jednostavnost sistema omogućiti to da sami korisnik može raditi popravku sistema.
@@ -279,6 +291,8 @@ Neki od tih zahtijeva su:
 
 Koliko god dobar algoritam bio u pozadini printera, ono \v{s}to u kona\v{c}nici predstavlja jedan od najbitnijih faktora za prodaju proizvoda je lijep i modernisti\v{c}ki dizajn. Vlasnici kafi\'ca, koji su potencijalni kupci printera, moraju ste\'ci dojam da je printer adekvatan za prostoriju u kojoj ga planiraju koristiti. Printer treba imati takav dizajn da se uklapa u interijer svih objekata u kojima bi se trebao koristiti, jer i pored toga \v{s}to je proces pripremanja ovog neobi\v{c}nog napitka itekako zanimljiv bitan je vanjski izgled koji \'ce dodatno uticati na faktor odu\v{s}evljenja.
 
+\newpage
+
 Vrijeme je novac, izreka je koja je motivacija za postizanje \v{s}to ve\'ce brzine izrade napitka. Ovo je veoma bitan faktor ovog sistema, jer u dana\v{s}njem veoma dinami\v{c}nom na\v{c}inu \v{z}ivota vlasnik kafi\'ca ne \v{z}eli da korisnici moraju potro\v{s}iti puno vremena \v{c}ekaju\'ci svoj \textit{selfieccino} jer i pored svega to je ipak samo obi\v{c}na kafa.
 
 Preciznost u printanju slike predstavlja jedan od najbitnijih zahtijeva u dizajnu ovog sistema. Ciljno tr\v{z}i\v{s}te ovog sistema su korisnici koji \'ce namjenski dolaziti u kafi\'c sa \textit{selfieccino} printerom i ba\v{s} zbog toga treba se potruditi da dobiju ono zbog \v{c}ega su i do\v{s}li, kvalitetno isprintan \textit{selfie} na pjeni njihovog toplog napitka.
@@ -291,16 +305,20 @@ Prilikom dizajna proizvoda, veoma bitan korak predstavlja i odgovaraju\'ca metri
 
 Veoma bitan faktor prilikom dizajna metrike koja \'ce dati ocjenu za dizajnirani sistem je odre\dj ivanje te\v{z}inskih koeficijenata za pojedina\v{c}ne zahtjeve. To \'ce omogu\'citi lak\v{s}u komunikaciju izme\dj u krajnjeg korisnika i onoga ko dizajnira dati sistem. Veoma popularna tehnika koja omogu\'cava uva\v{z}avanje korisni\v{c}kih zahtjeva pri dizajnu sistema je QFD (\textbf{eng} Quality Function Deployment) tehnika. Ideja QFD tehnike je identificirati neophodne zahtjeve i prevesti ih u tehni\v{c}ka rje\v{s}enja. Korisni\v{c}kim zahtijevima se dodijeljuju te\v{z}inski faktori na osnovu stepena prioriteta svakog od njih. QFD metoda omogu\'cava dizajneru da bolje razumije korisni\v{c}ke zahtijeve, ali isto tako forsira korisnika da klasificira svoje zahtijeve prema njihovoj va\v{z}nosti. Klasifikacija zahtijeva prema njihovoj va\v{z}nosti omogu\'cava dizajneru i korisniku da porede razli\v{c}ite dizajne sistema. Svaki od korisni\v{c}kih zahtijeva se mora realizirati odre\dj enim tehni\v{c}kim rje\v{s}enjem. 
 
+\newpage
+
 QFD proces podrazumijeva formiranje jedne ili vi\v{s}e matrica koje povezuju razli\v{c}ite potrebe i zahtijeve koje je potrebno uva\v{z}iti prilikom dizajna. Jedna od prethodno pomenutih matrica je i \textit{House of Quality} (HOQ) matrica, koja je prikazana na slici \ref{hoq}.  
 
 \begin{figure}[!h]
 \centering
-\includegraphics[scale=0.7]{hoq}
+\includegraphics[scale=0.8]{hoq}
 \caption{\textit{House of quality}}
 \label{hoq}
 \end{figure}
  
 Kako bi se konstruisala uspje\v{s}na \textit{House of Quality}, koja bi olak\v{s}ala proceduru dizajna sistema veoma je bitno dobro definisati zahtijeve i njihove prioritete u po\v{c}etnoj fazi. Na ovaj na\v{c}in se dobija i veoma dobar pregled svih zahtijeva i njihovih tehni\v{c}kih rje\v{s}enja. Tehni\v{c}ke mjere performanse predstavljaju jedan od najbitnijh faktora. One predstavljaju odgovaraju\'cu metriku koja ocjenjuje stepen va\v{z}nosti pojedina\v{c}nih zahtijeva i na taj na\v{c}in predstavlja vodi\v{c} za dizajnera sistema. Rankirane tehni\v{c}ke mjere performanse za sistem \textit{Selfieccino} je prikazan u sljede\'coj tabeli.
+
+\newpage
 
 \subsection{Funkcionalna analiza i alokacija}
 \subsubsection{Funkcionalna analiza}
@@ -308,7 +326,12 @@ Funkcionalna analiza predstavlja proces prevo\dj enja zahtijeva u kriterij za di
 
 Funkcionalna analiza zapo\v{c}inje definisanjem funkcionalnosti koje sistem treba da ispunjava. Ideja je da se ta\v{c}no defini\v{s}e \textbf{\v{s}ta} se treba uraditi, a ne \textbf{kako} to treba uraditi. Nijedan dio opreme, hardvera, softvera, ljudstva i bilo kojeg drugog resursa ne bi trebao biti kupljen ili planiran sve dok se funkcionalna analiza sistema ne provede do kraja. Funkcionalna analiza je iterativna procedura tokom koje se ve\'ci zahtijevi razbijaju na manje. Ova dekompozicija se obavlja sve dok se ne do\dj e do najni\v{z}eg nivoa na kojem je mogu\'ce identificirati resurse potrebne za ispunjavanje date funkcionalnosti. Za ove potrebe se koriste funkcionalni dijagrami. Oni omogu\'cavaju razbijanje funkcionalnosti sistema na manje dijelove i dobru vizuelnu reprezentaciju istih. 
 
-Funkcionalni dijagram sistema \textit{Selfieccino} je prikazan na slici \ref{funkcdijagram}.
+Funkcionalni dijagram sistema \textit{Selfieccino} je prikazan na slici \ref{funkcdijagram}. 
+
+\subsubsection{Funkcionalna alokacija}
+Nakon definisanja funkcionalnog dijagrama \textit{selfieccina}, sljede\'ci korak je grupisanje malih funkcionalnosti u logi\v{c}ke blokove. Na ovaj na\v{c}in \'ce se izvr\v{s}iti identifikacija svih podsistema koje je potrebno implementirati u sklopu cijelog sistema. U ovom koraku se dekompozicija iz prethodnog poglavlja, koja se bavila pitanjem \textit{\v{s}ta} treba implementirati, prevodi u formu \textit{kako} to treba implementirati. Ovakva dekompozicija sistema \textit{selfieccina} je prikazana na slici \ref{funkcalokacija}.
+
+\newpage
 
 \begin{figure}[!h]
 \centering
@@ -316,9 +339,8 @@ Funkcionalni dijagram sistema \textit{Selfieccino} je prikazan na slici \ref{fun
 \caption{Funkcionalni dijagram \textit{selfieccina}}
 \label{funkcdijagram}
 \end{figure}
- 
-\subsubsection{Funkcionalna alokacija}
-Nakon definisanja funkcionalnog dijagrama \textit{selfieccina}, sljede\'ci korak je grupisanje malih funkcionalnosti u logi\v{c}ke blokove. Na ovaj na\v{c}in \'ce se izvr\v{s}iti identifikacija svih podsistema koje je potrebno implementirati u sklopu cijelog sistema. U ovom koraku se dekompozicija iz prethodnog poglavlja, koja se bavila pitanjem \textit{\v{s}ta} treba implementirati, prevodi u formu \textit{kako} to treba implementirati. Ovakva dekompozicija sistema \textit{selfieccina} je prikazana na slici \ref{funkcalokacija}.
+
+\newpage
 
 \begin{figure}[!h]
 \centering
@@ -327,12 +349,145 @@ Nakon definisanja funkcionalnog dijagrama \textit{selfieccina}, sljede\'ci korak
 \label{funkcalokacija}
 \end{figure}
  
+ \newpage
+\subsection{FMECA analiza} 
+FMECA (\textbf{eng} Failure Mode, Effects and Criticality Analysis) predstavlja tehniku analize koja se koristi za istra\v{z}ivanje i identifikaciju potencijalnih slabosti sistema [CITIRATI  J. Oakes, "Technical Performance Measures", Bae systems San Diego, 2004]. Primjena ove tehnike omogu\'cava da se provede analiza koja \'ce ispitati sve mogu\'ce kvarove sistema, uticaj tih kvarova na rad, sigurnost i performanse sistema.
+
+Kako se sistem \textit{selfieccina} mo\v{z}e konceptualno razdvojiti na fizi\v{c}ki i funkcionalni dio, FMECA analiza \'ce biti provedena na oba dijela sistema. FMECA analiza se sastoji od 12 klj\v{c}nih koraka (detaljno opisano u radu [CITIRATI  J. Oakes, "Technical Performance Measures", Bae systems San Diego, 2004]). U sljede\'cim tabelama \'ce biti detaljno provedena FMECA analiza fizi\v{c}kog i funkcionalnog dijela sistema.
+
+\begin{table}[!h]
+\begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
+\hline 
+\textbf{Fizi\v{c}ka komponenta} & \textbf{Potencijalni kvar} & \textbf{Potencijalni uzrok kvara} & \textbf{Potencijalni uticaj kvara na proizvo\dj a\v{c}a} & \textbf{Potencijalni uticaj kvara na korisnika} \\ 
+\hline 
+\textbf{Ku\'ci\v{s}te i mehani\v{c}ka konstrukcija} & Fizi\v{c}ka o\v{s}te\'cenja & Udarci o\v{s}trim predmetima & Naru\v{s}avanje estetike & Naru\v{s}avanje estetike  \\ 
+\hline
+\textbf{Upravlja\v{c}ka jedinica} & Kvar elektroni\v{c}kih komponenti & Prekid napajanja & Dodatni tro\v{s}kovi & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline
+\textbf{Senzor udaljenosti} & Pogre\v{s}na o\v{c}itanja senzora & Lo\v{s}a kalibracija senzora & Lo\v{s} kvalitet proizvoda & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline
+\textbf{Motori} & Prestanak rada, pogr\v{s}na veli\v{c}ina koraka & Prestanak napajanja, lo\v{s}a kalibracija, lo\v{s}e generisana putanja kretanja & Lo\v{s} kvalitet proizvoda & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline
+\textbf{Prskalica} & Prestanak rada, gre\v{s}ka u koli\v{c}ini materije koja se izbacuje & Prestanak napajanja, fizi\v{c}ko o\v{s}te\'cenje komponenti prskalice & Lo\v{s} kvalitet proizvoda & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline 
+\end{tabular}
+\caption{FMECA analiza fizi\v{c}kih komponenti (prvi dio tabele)}
+\end{table}
+ 
+ \newpage
+ 
+\begin{table}[!h]
+\begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
+\hline 
+\textbf{Metod detekcije kvara} & \textbf{Ozbiljnost kvara} & \textbf{U\v{c}estalost kvara} & \textbf{Vjerovatno\'ca otkrivanja kvara} & \textbf{Prioritet opasnosti RPN} \\ 
+\hline 
+Vizuelno & 3 & 2 & 9 & 54 \\ 
+\hline 
+Mjerenje struje, napona i temperature i vizuelna analiza funkcionalnosti sistema & 10 & 4 & 8 & 320 \\
+\hline
+Mjerenje struje, napona i analiza povratnih informacija sa senzora & 10 & 3 & 7 & 210 \\
+\hline
+Vizuelno & 9 & 3 & 10 & 270 \\
+\hline
+Vizuelno & 9 & 4 & 8 & 288 \\
+\hline
+\end{tabular}
+\caption{FMECA analiza fizi\v{c}kih komponenti (drugi dio tabele)}
+\end{table}
+
 \newpage
-\renewcommand{\refname}{Izvori}
-\bibliographystyle{plain}
-\addcontentsline{toc}{section}{Izvori}
-\nocite{*}
-\bibliography{lit}
+
+\begin{table}[!h]
+\begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
+\hline 
+\textbf{Funkcionalna komponenta} & \textbf{Potencijalni kvar} & \textbf{Potencijalni uzrok kvara} & \textbf{Potencijalni uticaj kvara na proizvo\dj a\v{c}a} & \textbf{Potencijalni uticaj kvara na korisnika} \\ 
+\hline 
+\textbf{Wifi mre\v{z}a} & Nestanak konekcije & Gre\v{s}ka na strani internet provajera, preoptere\'cenje mre\v{z}e & Ka\v{s}njenje u proizvodnji & Nezadovoljstvo pru\v{z}enom uslugom  \\ 
+\hline
+\textbf{Komunikac. protokol} & Zagu\v{s}enje komunikacijskog kanala & Lo\v{s}a kontrola pristupa ure\dj aju & Ka\v{s}njenje u proizvodnji & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline
+\textbf{Mobilna aplikacija} & Prestanak rada aplikacije & Neotkrivene gre\v{s}ke u implementaciji aplikacije & Lo\v{s} kvalitet pru\v{z}anja usluga & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline
+\textbf{Desktop aplikacija} & Prestanak rada aplikacije & Neotkrivene gre\v{s}ke u implementaciji aplikacije & Lo\v{s} kvalitet pru\v{z}anja usluga & Nezadovoljstvo pru\v{z}enom uslugom \\ 
+\hline 
+\end{tabular}
+\caption{FMECA analiza funkcionalnih komponenti (prvi dio tabele)}
+\end{table}
+
+\newpage
+
+\begin{table}[!h]
+\begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
+\hline 
+\textbf{Metod detekcije kvara} & \textbf{Ozbiljnost kvara} & \textbf{U\v{c}estalost kvara} & \textbf{Vjerovatno\'ca otkrivanja kvara} & \textbf{Prioritet opasnosti RPN} \\ 
+\hline 
+Gubitak konekcije ure\dj aja & 5 & 5 & 10 & 250 \\ 
+\hline 
+Pogre\v{s}an format primljenih podataka & 7 & 4 & 8 & 224 \\
+\hline
+Prijava od strane korisnika & 7 & 4 & 9 & 252 \\
+\hline
+Prijava od strane konobara & 8 & 2 & 10 & 160 \\
+\hline
+\end{tabular}
+\caption{FMECA analiza funkcionalnih komponenti (drugi dio tabele)}
+\end{table}
+
+\newpage
+
+
+Na slici \ref{fmeca} je prikazan RPN za funkcionalne i fizi\v{c}ke komponente sistema.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.6]{fmeca}
+\caption{Grafi\v{c}ki prikaz RPN-a}
+\label{fmeca}
+\end{figure}
+
+Kako bi se smanjile vrijednosti RPN-a, mogu\'ce je uvesti neke dodatne preporuke koje su prikazane u sljede\'coj tabeli.
+
+\newpage
+
+\begin{table}[!h]
+\begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
+\hline 
+\textbf{Komponenta} & \textbf{Preporuka za pobolj\v{s}anje} & \textbf{Ozbiljnost kvara} & \textbf{U\v{c}estalost kvara} & \textbf{Vjerovatno\'ca otkrivanja kvara} & \textbf{Prioritet opasnosti RPN} \\ 
+\hline 
+Ku\'ci\v{s}te i mehani\v{c}ka konstrukcija & Kvalitetniji materijal & 2 & 1 & 7 & 14 \\ 
+\hline 
+Upravlja\v{c}ka jedinica & Bolji mikrokontroler & 10 & 2 & 7 & 140 \\
+\hline
+Senzor udaljenosti & Dodatni senzori udaljenosti, laserski senzori & 10 & 1 & 6 & 60 \\
+\hline
+Motori & Kvalitetniji motori sa zasebnim drajverima & 8 & 2 & 5 & 80 \\
+\hline
+Prskalica & Profesionalno izra\dj ena prskalica & 8 & 2 & 7 & 112 \\
+\hline
+Wifi mre\v{z}a & Skalabilna mre\v{z}a i dobar internet provajder & 5 & 2 & 8 & 80 \\
+\hline
+Komunikac. protokol & Sigurniji i pouzdaniji implementirani protokol & 5 & 2 & 7 & 70 \\
+\hline
+Mobilna aplikacija & Profesionalni developeri za razvoj aplikacije & 5 & 2 & 8 & 80 \\
+\hline
+Desktop aplikacija & Profesionalni developeri za razvoj aplikacije & 5 & 2 & 5 & 50 \\
+\hline
+\end{tabular}
+\caption{Preporuke za pobolj\v{s}anje RPN-a}
+\end{table}
+
+\newpage
+
+Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne i fizi\v{c}ke komponente sistema.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.6]{fmecaBolji}
+\caption{Grafi\v{c}ki prikaz RPN-a sa preporu\v{c}enim akcijama za pobolj\v{s}anje}
+\label{fmeca2}
+\end{figure}
+
+
 
 \end{document}
 %modifikovao suad              

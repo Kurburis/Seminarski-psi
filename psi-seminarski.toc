@@ -1,17 +1,17 @@
 \select@language {bosnian}
 \contentsline {section}{\numberline {1}Motivacija}{2}{section.1}
 \contentsline {section}{\numberline {2}Konceptualni dizajn}{3}{section.2}
-\contentsline {subsection}{\numberline {2.1}Identifikacija potreba}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Identifikacija potreba}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Analiza izvodljivosti}{4}{subsection.2.2}
-\contentsline {subsubsection}{\numberline {2.2.1}Mehanizma za pomjeranje vrha za printanje}{4}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1}Mehanizma za pomjeranje vrha za printanje}{5}{subsubsection.2.2.1}
 \contentsline {subsubsection}{\numberline {2.2.2}Vrh za printanje}{5}{subsubsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.3}Tinta za printanje}{5}{subsubsection.2.2.3}
 \contentsline {subsection}{\numberline {2.3}Analiza zahtjeva za sistem}{6}{subsection.2.3}
 \contentsline {subsubsection}{\numberline {2.3.1}Operativni zahtjevi}{6}{subsubsection.2.3.1}
-\contentsline {subsection}{\numberline {2.4}Zahtjevi za održavanje i podršku}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Zahtjevi za održavanje i podršku}{7}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Dodatni zahtjevi}{7}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Tehni\v {c}ke mjere performanse}{8}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Funkcionalna analiza i alokacija}{9}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{9}{subsubsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7}Funkcionalna analiza i alokacija}{10}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{10}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Funkcionalna alokacija}{10}{subsubsection.2.7.2}
-\contentsline {section}{Izvori}{12}{figure.4}
+\contentsline {subsection}{\numberline {2.8}FMECA analiza}{13}{subsection.2.8}
