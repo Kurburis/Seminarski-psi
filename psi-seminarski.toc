@@ -12,4 +12,6 @@
 \contentsline {subsection}{\numberline {2.5}Dodatni zahtjevi}{7}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Tehni\v {c}ke mjere performanse}{8}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Funkcionalna analiza i alokacija}{9}{subsection.2.7}
-\contentsline {section}{Izvori}{11}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{9}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Funkcionalna alokacija}{10}{subsubsection.2.7.2}
+\contentsline {section}{Izvori}{12}{figure.4}

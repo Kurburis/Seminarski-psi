@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.6.19)  30 APR 2018 12:03
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6210 64-bit) (preloaded format=xelatex 2017.6.19)  30 APR 2018 13:13
 entering extended mode
 **./psi-seminarski.tex
 (psi-seminarski.tex
@@ -1321,30 +1321,35 @@ File: hoq.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8] [9]
+File: funkcdijagram.png Graphic file (type QTm)
+ <use  "funkcdijagram.png" >
+Overfull \hbox (43.81288pt too wide) in paragraph at lines 315--316
+ [][] 
+ []
 
-LaTeX Warning: Reference `funkdijagram' on page 10 undefined on input line 310.
+[10]
+File: funkcalokacija.png Graphic file (type QTm)
+ <use  "funkcalokacija.png" >
+Overfull \hbox (54.9722pt too wide) in paragraph at lines 325--326
+ [][] 
+ []
 
-
-[10] (psi-seminarski.bbl) [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 323.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 323.
+[11] (psi-seminarski.bbl) [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
  (psi-seminarski.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 323.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 323.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 337.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 39349 strings out of 427899
- 890475 string characters out of 3153117
- 1075013 words of memory out of 3000000
- 42743 multiletter control sequences out of 15000+200000
+ 39355 strings out of 427899
+ 890578 string characters out of 3153117
+ 1075309 words of memory out of 3000000
+ 42747 multiletter control sequences out of 15000+200000
  7522 words of font info for 41 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
  62i,12n,96p,10417b,479s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on psi-seminarski.pdf (12 pages).
+Output written on psi-seminarski.pdf (13 pages).
