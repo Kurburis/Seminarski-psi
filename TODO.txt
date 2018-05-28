@@ -34,3 +34,5 @@ Maintenance and support requirments (Suad)
 -jeftin
 
 2.5 Tehnicke mjere performanse.
+-----------------------------------------------
+- FMECA analiza (Eldar)
