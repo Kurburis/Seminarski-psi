@@ -1,4 +1,4 @@
-\select@language {bosnian}
+\babel@toc {bosnian}{}
 \contentsline {section}{\numberline {1}Motivacija}{2}{section.1}
 \contentsline {section}{\numberline {2}Konceptualni dizajn}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Identifikacija potreba}{4}{subsection.2.1}
@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.4}Zahtjevi za održavanje i podršku}{7}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Dodatni zahtjevi}{7}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Tehni\v {c}ke mjere performanse}{8}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Funkcionalna analiza i alokacija}{10}{subsection.2.7}
-\contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{10}{subsubsection.2.7.1}
-\contentsline {subsubsection}{\numberline {2.7.2}Funkcionalna alokacija}{10}{subsubsection.2.7.2}
-\contentsline {subsection}{\numberline {2.8}FMECA analiza}{13}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.7}Funkcionalna analiza i alokacija}{14}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{14}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Funkcionalna alokacija}{14}{subsubsection.2.7.2}
+\contentsline {subsection}{\numberline {2.8}FMECA analiza}{17}{subsection.2.8}
