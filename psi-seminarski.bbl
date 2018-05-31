@@ -1,8 +1,31 @@
 \begin{thebibliography}{1}
 
-\bibitem{Routers}
-Reuters.
-\newblock London cafe unveils the 'selfieccino' - self portraits in froth,
+\bibitem{bustle}
+Brandi Neal.
+\newblock {What Is A Selfieccino? You Can Order A Drink With Your Face On It At
+  This London Cafe}.
+\newblock
+  \url{https://www.bustle.com/p/what-is-a-selfieccino-you-can-order-a-drink-with-your-face-on-it-at-this-london-cafe-7685582},
   2017.
+\newblock [Online; posje\'ceno 31. 05. 2018].
+
+\bibitem{wiki1}
+{Wikipedia contributors}.
+\newblock System lifecycle --- {Wikipedia}{,} the free encyclopedia.
+\newblock
+  \url{https://en.wikipedia.org/w/index.php?title=System_lifecycle&oldid=828537183},
+  2018.
+\newblock [Online; posje\'ceno 31. 05. 2018].
+
+\bibitem{book1}
+Dennis~M Buede and William~D Miller.
+\newblock {\em The engineering design of systems: models and methods}.
+\newblock John Wiley \& Sons, 2016.
+
+\bibitem{oakes1}
+James Oakes, Rick Botta, and A~Terry Bahill.
+\newblock Technical performance measures.
+\newblock In {\em Proceedings of 16th Annual International Symposium of
+  INCOSE}, pages 9--13, 2006.
 
 \end{thebibliography}

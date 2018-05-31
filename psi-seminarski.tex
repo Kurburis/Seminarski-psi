@@ -162,7 +162,7 @@ U decembru 2017. godine, u Londonskom kafi\'cu \textit{Tea Terrace}, otvoren je 
 
 Gosti putem aplikacije \v{s}alju svoju sliku ili neki tekst osoblju kafi\'ca koji onda za njih pripremaju ovaj neobi\v{c}ni napitak. Procedura izrade napitka traje \v{c}etiri minute, a cijena koju gosti trebaju platiti za ovo neobi\v{c}no pi\'ce je $5.75$ funti. Iako je cijena \textit{selfieccina} malo ve\'ca od prosje\v{c}ne cijene kafe, osoblje kafi\'ca je izjavilo da su prvi dan imali preko $400$ gostiju koji su tu do\v{s}li samo zbog ove inovacije.
 
-Ideja za ovakav pristup pripremi kafe, prema rije\v{c}ima vlasnika kafi\'ca, je bila \v{z}elja da se spoje dvije itekako popularne stvari u \v{z}ivotu mladih - kafa i \textit{selfie}. Slično grčkom mitu o Narcissusu, čovjeku koji je bio tako uznemiren kada je vidio svoj odraz u jezeru da se odmah zaljubio, \textit{selfieccino} gostima omogućava da gledaju svoje lice dok ispijaju svoj omiljeni topli napitak [citirati https://www.bustle.com/p/what-is-a-selfieccino-you-can-order-a-drink-with-your-face-on-it-at-this-london-cafe-7685582]. Vlasnik kafi\'ca, Ehab Salem Shouly, je izjavio za Reuters: "Nije dovoljno samo pružiti sjajnu hranu i odličnu uslugu - to mora biti vrijedno Instagrama". Ova izjava je autore ovog rada motivisala da probaju istu ideju implementirati na svoj na\v{c}in i u svom gradu. 
+Ideja za ovakav pristup pripremi kafe, prema rije\v{c}ima vlasnika kafi\'ca, je bila \v{z}elja da se spoje dvije itekako popularne stvari u \v{z}ivotu mladih - kafa i \textit{selfie}. Slično grčkom mitu o Narcissusu, čovjeku koji je bio tako uznemiren kada je vidio svoj odraz u jezeru da se odmah zaljubio, \textit{selfieccino} gostima omogućava da gledaju svoje lice dok ispijaju svoj omiljeni topli napitak \cite{bustle}. Vlasnik kafi\'ca, Ehab Salem Shouly, je izjavio za Reuters: "Nije dovoljno samo pružiti sjajnu hranu i odličnu uslugu - to mora biti vrijedno Instagrama". Ova izjava je autore ovog rada motivisala da probaju istu ideju implementirati na svoj na\v{c}in i u svom gradu. 
 
 \newpage
 
@@ -176,7 +176,7 @@ Klju\v{c}ni koraci u procesu konceptualnog dizajna su:
 \item analiza izvodljivosti,
 \item analiza zahtjeva za sistem,
 \item specifikacija sistema,
-\item pregled idejnog rje\v{s}enja. %[citirati "System lifecycle" https://en.wikipedia.org/wiki/System_lifecycle#Conceptual_design].
+\item pregled idejnog rje\v{s}enja. \cite{wiki1}
 \end{itemize}
 
 Neka od pitanja koja mogu biti korisna u fazi konceptualnog dizajna su:
@@ -186,7 +186,7 @@ Neka od pitanja koja mogu biti korisna u fazi konceptualnog dizajna su:
 \item Koju tehnologiju za dati podsistem treba odabrati?
 \item Koji postoje\'ci hardver i softver treba koristiti?
 \item Da li je predvi\dj eni koncept tehni\v{c}ki izvodi na osnovu tro\v{s}kova, rasporeda i performanse?
-\item Da li su potrebna dodatna istra\v{z}ivanja prije nego se donese kona\v{c}na odluka? %citirati D. M. Buede, "The engineering design of system Models and methods", John Wiley & Sons, 2009
+\item Da li su potrebna dodatna istra\v{z}ivanja prije nego se donese kona\v{c}na odluka? \cite{book1}
 \end{itemize}
 
 Za potrebe izrade seminarskog rada odabran je printer \textit{selfieccina}. U narednim poglavljima će biti opisane detaljne faze u okviru konceptualnog dizajna za predloženi sistem.
@@ -375,9 +375,11 @@ Nakon definisanja funkcionalnog dijagrama \textit{selfieccina}, sljede\'ci korak
  
  \newpage
 \subsection{FMECA analiza} 
-FMECA (\textbf{eng} Failure Mode, Effects and Criticality Analysis) predstavlja tehniku analize koja se koristi za istra\v{z}ivanje i identifikaciju potencijalnih slabosti sistema [CITIRATI  J. Oakes, "Technical Performance Measures", Bae systems San Diego, 2004]. Primjena ove tehnike omogu\'cava da se provede analiza koja \'ce ispitati sve mogu\'ce kvarove sistema, uticaj tih kvarova na rad, sigurnost i performanse sistema.
+FMECA (\textbf{eng} Failure Mode, Effects and Criticality Analysis) predstavlja tehniku analize koja se koristi za istra\v{z}ivanje i identifikaciju potencijalnih slabosti sistema \cite{oakes1}. Primjena ove tehnike omogu\'cava da se provede analiza koja \'ce ispitati sve mogu\'ce kvarove sistema, uticaj tih kvarova na rad, sigurnost i performanse sistema.
 
-Kako se sistem \textit{selfieccina} mo\v{z}e konceptualno razdvojiti na fizi\v{c}ki i funkcionalni dio, FMECA analiza \'ce biti provedena na oba dijela sistema. FMECA analiza se sastoji od 12 klj\v{c}nih koraka (detaljno opisano u radu [CITIRATI  J. Oakes, "Technical Performance Measures", Bae systems San Diego, 2004]). U sljede\'cim tabelama \'ce biti detaljno provedena FMECA analiza fizi\v{c}kog i funkcionalnog dijela sistema.
+Kako se sistem \textit{selfieccina} mo\v{z}e konceptualno razdvojiti na fizi\v{c}ki i funkcionalni dio, FMECA analiza \'ce biti provedena na oba dijela sistema. FMECA analiza se sastoji od 12 klj\v{c}nih koraka (detaljno opisano u radu \cite{oakes1}). U sljede\'cim tabelama \'ce biti detaljno provedena FMECA analiza fizi\v{c}kog i funkcionalnog dijela sistema.
+
+\newpage
 
 \begin{table}[!h]
 \begin{tabular}{|p{25mm}|p{25mm}|p{25mm}|p{25mm}|p{25mm}|}
@@ -512,6 +514,8 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
 \end{figure}
 
 
+\bibliographystyle{unsrt}
+\bibliography{mybib}
 
 \end{document}
 %modifikovao suad              

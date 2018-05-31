@@ -1,4 +1,4 @@
-\babel@toc {bosnian}{}
+\select@language {bosnian}
 \contentsline {section}{\numberline {1}Motivacija}{2}{section.1}
 \contentsline {section}{\numberline {2}Konceptualni dizajn}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Identifikacija potreba}{4}{subsection.2.1}
