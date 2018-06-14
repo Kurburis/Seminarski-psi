@@ -1,16 +1,23 @@
 \BOOKMARK [1][-]{section.1}{Motivacija}{}% 1
-\BOOKMARK [1][-]{section.2}{Konceptualni\040dizajn}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{Identifikacija\040potreba}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Analiza\040izvodljivosti}{section.2}% 4
-\BOOKMARK [3][-]{subsubsection.2.2.1}{Mehanizma\040za\040pomjeranje\040vrha\040za\040printanje}{subsection.2.2}% 5
-\BOOKMARK [3][-]{subsubsection.2.2.2}{Vrh\040za\040printanje}{subsection.2.2}% 6
-\BOOKMARK [3][-]{subsubsection.2.2.3}{Tinta\040za\040printanje}{subsection.2.2}% 7
-\BOOKMARK [2][-]{subsection.2.3}{Analiza\040zahtjeva\040za\040sistem}{section.2}% 8
-\BOOKMARK [3][-]{subsubsection.2.3.1}{Operativni\040zahtjevi}{subsection.2.3}% 9
+\BOOKMARK [1][-]{section.2}{Konceptualni dizajn}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Identifikacija potreba}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Analiza izvodljivosti}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Mehanizma za pomjeranje vrha za printanje}{subsection.2.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Vrh za printanje}{subsection.2.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Tinta za printanje}{subsection.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.3}{Analiza zahtjeva za sistem}{section.2}% 8
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Operativni zahtjevi}{subsection.2.3}% 9
 \BOOKMARK [2][-]{subsection.2.4}{Zahtjevi za održavanje i podršku}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.5}{Dodatni\040zahtjevi}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.6}{Tehničke mjere performanse}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.7}{Funkcionalna\040analiza\040i\040alokacija}{section.2}% 13
-\BOOKMARK [3][-]{subsubsection.2.7.1}{Funkcionalna\040analiza}{subsection.2.7}% 14
-\BOOKMARK [3][-]{subsubsection.2.7.2}{Funkcionalna\040alokacija}{subsection.2.7}% 15
-\BOOKMARK [2][-]{subsection.2.8}{FMECA\040analiza}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.5}{Dodatni zahtjevi}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.6}{Tehnicke mjere performanse}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.7}{Funkcionalna analiza i alokacija}{section.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.7.1}{Funkcionalna analiza}{subsection.2.7}% 14
+\BOOKMARK [3][-]{subsubsection.2.7.2}{Funkcionalna alokacija}{subsection.2.7}% 15
+\BOOKMARK [2][-]{subsection.2.8}{FMECA analiza}{section.2}% 16
+\BOOKMARK [1][-]{section.3}{Naredni}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Alokacija zahtjeva}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.2}{Analiza popravke protiv zamjene komponenti}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.3}{Rezervni dijelovi u skladištu}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.4}{Lifecycle cost analiza}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Analiza troškova}{subsection.3.4}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Krajnja analiza profita}{subsection.3.4}% 23
