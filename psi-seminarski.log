@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6530)  (format=lualatex 2018.1.13)  14 JUN 2018 10:31
+This is LuaTeX, Version 1.06.2 (MiKTeX 2.9.6530)  (format=lualatex 2018.1.13)  17 JUN 2018 18:02
  restricted system commands enabled.
 **psi-seminarski.tex
 (./psi-seminarski.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.655 seconds
+luaotfload | main : initialization completed in 0.664 seconds
 Babel <3.16> and hyphenation patterns for 1 language(s) loaded.
 ("F:/Program Files (x86)/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1437,89 +1437,7 @@ Package caption Info: hyperref package is loaded.
 Package hyperref Info: Option `colorlinks' set `true' on input line 33.
 \tikzscale@accuracy=\skip66
 
-(./psi-seminarski.aux
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-)
+(./psi-seminarski.aux)
 \openout1 = psi-seminarski.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -1538,7 +1456,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
 LaTeX Font Info:    ... okay on input line 69.
- ("F:/Program Files (x86)/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
+
+("F:/Program Files (x86)/MiKTeX 2.9/tex/context/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count313
 \scratchdimen=\dimen292
@@ -1667,920 +1586,920 @@ jeme iz-među kva-rova (MTBF),
 
 Package hyperref Warning: Composite letter `\textasciicaron+c'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textasciicaron' on input line 303.
+(hyperref)                removing `\textasciicaron' on input line 305.
 
 [8]
 <hoq.png, id=180, 412.54124pt x 432.61626pt>
 File: hoq.png Graphic file (type png)
 <use hoq.png>
-Package luatex.def Info: hoq.png  used on input line 315.
+Package luatex.def Info: hoq.png  used on input line 317.
 (luatex.def)             Requested size: 330.03345pt x 346.09348pt.
-<tabela_gornja.png, id=181, 377.91188pt x 380.92313pt>
+<tabela_gornja.png, id=182, 379.4175pt x 380.92313pt>
 File: tabela_gornja.png Graphic file (type png)
 <use tabela_gornja.png>
-Package luatex.def Info: tabela_gornja.png  used on input line 322.
-(luatex.def)             Requested size: 377.91095pt x 380.92218pt.
-<tabela_zahtjevi_korisnika.png, id=182, 525.46312pt x 266.49562pt>
+Package luatex.def Info: tabela_gornja.png  used on input line 326.
+(luatex.def)             Requested size: 379.41656pt x 380.92218pt.
+ [9<./hoq.png>]
+<tabela_zahtjevi_korisnika.png, id=191, 526.21594pt x 265.74281pt>
 File: tabela_zahtjevi_korisnika.png Graphic file (type png)
 <use tabela_zahtjevi_korisnika.png>
-Package luatex.def Info: tabela_zahtjevi_korisnika.png  used on input line 328.
-(luatex.def)             Requested size: 427.43153pt x 216.7874pt.
-<tabela_sredina.png, id=183, 486.31688pt x 507.39563pt>
+Package luatex.def Info: tabela_zahtjevi_korisnika.png  used on input line 332.
+(luatex.def)             Requested size: 427.43153pt x 215.86684pt.
+<tabela_sredina.png, id=192, 486.31688pt x 534.49687pt>
 File: tabela_sredina.png Graphic file (type png)
 <use tabela_sredina.png>
-Package luatex.def Info: tabela_sredina.png  used on input line 333.
-(luatex.def)             Requested size: 427.43153pt x 445.95984pt.
-<tabela_zakljucak.png, id=184, 545.78906pt x 237.88875pt>
+Package luatex.def Info: tabela_sredina.png  used on input line 337.
+(luatex.def)             Requested size: 427.43153pt x 469.77963pt.
+<tabela_zakljucak.png, id=193, 545.03625pt x 237.88875pt>
 File: tabela_zakljucak.png Graphic file (type png)
 <use tabela_zakljucak.png>
-Package luatex.def Info: tabela_zakljucak.png  used on input line 338.
-(luatex.def)             Requested size: 427.43153pt x 186.30022pt.
-<tabela_donja.png, id=185, 509.65407pt x 161.10187pt>
+Package luatex.def Info: tabela_zakljucak.png  used on input line 342.
+(luatex.def)             Requested size: 427.43153pt x 186.55794pt.
+<tabela_donja.png, id=194, 500.62032pt x 170.88844pt>
 File: tabela_donja.png Graphic file (type png)
 <use tabela_donja.png>
-Package luatex.def Info: tabela_donja.png  used on input line 343.
-(luatex.def)             Requested size: 427.43153pt x 135.11815pt.
- [9<./hoq.png>] [10<./tabela_gornja.png>] [11<./tabela_zahtjevi_korisnika.png>]
- [12<./tabela_sredina.png>] [13<./tabela_zakljucak.png><./tabela_donja.png>] [1
-4
+Package luatex.def Info: tabela_donja.png  used on input line 347.
+(luatex.def)             Requested size: 427.43153pt x 145.91034pt.
+ [10<./tabela_gornja.png>] [11<./tabela_zahtjevi_korisnika.png>] [12<./tabela_sr
+edina.png>] [13<./tabela_zakljucak.png><./tabela_donja.png>] [14
 
 ]
-<funkcdijagram.png, id=229, 725.71124pt x 439.6425pt>
+<funkcdijagram.png, id=230, 725.71124pt x 439.6425pt>
 File: funkcdijagram.png Graphic file (type png)
 <use funkcdijagram.png>
-Package luatex.def Info: funkcdijagram.png  used on input line 365.
+Package luatex.def Info: funkcdijagram.png  used on input line 370.
 (luatex.def)             Requested size: 471.70673pt x 285.76424pt.
 
-Overfull \hbox (44.27519pt too wide) in paragraph at lines 365--366
+Overfull \hbox (44.27519pt too wide) in paragraph at lines 370--371
  [][] 
  []
 
 [15<./funkcdijagram.png>]
-<funkcalokacija.png, id=235, 804.00375pt x 583.17876pt>
+<funkcalokacija.png, id=236, 804.00375pt x 583.17876pt>
 File: funkcalokacija.png Graphic file (type png)
 <use funkcalokacija.png>
-Package luatex.def Info: funkcalokacija.png  used on input line 374.
+Package luatex.def Info: funkcalokacija.png  used on input line 379.
 (luatex.def)             Requested size: 482.40598pt x 349.90996pt.
 
-Overfull \hbox (54.97444pt too wide) in paragraph at lines 374--375
+Overfull \hbox (54.97444pt too wide) in paragraph at lines 379--380
  [][] 
  []
 
 [16<./funkcalokacija.png>] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []\TU/lmr/bx/n/12 Fi-zička
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \TU/lmr/bx/n/12 kom-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []\TU/lmr/bx/n/12 Po-ten-ci-
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 390--390
+Underfull \hbox (badness 3482) in paragraph at lines 395--395
 \TU/lmr/bx/n/12 jalni uti-caj
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--390
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \TU/lmr/bx/n/12 kvara na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 390--391
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\TU/lmr/bx/n/12 Kućište i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \TU/lmr/bx/n/12 me-ha-nička
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 \TU/lmr/bx/n/12 kon-struk-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\TU/lmr/m/n/12 Fi-zička oš-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--392
+Underfull \hbox (badness 10000) in paragraph at lines 397--397
 []\TU/lmr/m/n/12 Na-ruša-vanje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 []\TU/lmr/m/n/12 Na-ruša-vanje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\TU/lmr/bx/n/12 Upra-vl-jačka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 []\TU/lmr/m/n/12 Kvar elek-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--394
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 \TU/lmr/m/n/12 tro-nič-kih
  []
 
 
-Underfull \hbox (badness 1394) in paragraph at lines 394--394
+Underfull \hbox (badness 1394) in paragraph at lines 399--399
 []\TU/lmr/m/n/12 Pre-kid na-pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 394--395
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 []\TU/lmr/bx/n/12 Sen-zor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--396
+Underfull \hbox (badness 10000) in paragraph at lines 401--401
 []\TU/lmr/m/n/12 Loš kva-li-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 396--397
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 \TU/lmr/m/n/12 rada, po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 \TU/lmr/m/n/12 na-pa-janja,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 \TU/lmr/m/n/12 loša ka-li-
  []
 
 
-Underfull \hbox (badness 6893) in paragraph at lines 398--398
+Underfull \hbox (badness 6893) in paragraph at lines 403--403
 \TU/lmr/m/n/12 bra-cija, loše
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 \TU/lmr/m/n/12 ge-ne-risana
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 \TU/lmr/m/n/12 pu-tanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--398
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
 []\TU/lmr/m/n/12 Loš kva-li-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--399
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 400--400
+Underfull \hbox (badness 4505) in paragraph at lines 405--405
 \TU/lmr/m/n/12 rada, greška
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \TU/lmr/m/n/12 u ko-ličini
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \TU/lmr/m/n/12 na-pa-janja,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \TU/lmr/m/n/12 fi-zičko oš-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \TU/lmr/m/n/12 tećenje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 \TU/lmr/m/n/12 kom-po-nenti
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--405
 []\TU/lmr/m/n/12 Loš kva-li-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 \TU/lmr/m/n/12 pruže-nom
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []\TU/lmr/bx/n/12 Me-tod
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 \TU/lmr/bx/n/12 de-tekcije
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []\TU/lmr/bx/n/12 Oz-bil-j-nost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []\TU/lmr/bx/n/12 Uče-sta-lost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 []\TU/lmr/bx/n/12 Vje-ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 \TU/lmr/bx/n/12 vat-noća
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
 \TU/lmr/bx/n/12 otk-ri-vanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 []\TU/lmr/bx/n/12 Pri-o-ri-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
 \TU/lmr/bx/n/12 opa-s-nosti
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 []\TU/lmr/m/n/12 Mjerenje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \TU/lmr/m/n/12 struje, na-
  []
 
 
-Underfull \hbox (badness 2478) in paragraph at lines 415--415
+Underfull \hbox (badness 2478) in paragraph at lines 420--420
 \TU/lmr/m/n/12 pona i tem-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \TU/lmr/m/n/12 pe-ra-ture
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \TU/lmr/m/n/12 i vi-zu-elna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \TU/lmr/m/n/12 ana-liza fun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 415--415
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
 \TU/lmr/m/n/12 k-ci-o-nal-nosti
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 []\TU/lmr/m/n/12 Mjerenje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 \TU/lmr/m/n/12 struje, na-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 \TU/lmr/m/n/12 po-vrat-nih
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 \TU/lmr/m/n/12 in-for-ma-cija
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []\TU/lmr/bx/n/12 Fun-k-ci-o-
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 432--432
+Underfull \hbox (badness 1442) in paragraph at lines 437--437
 \TU/lmr/bx/n/12 nalna kom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []\TU/lmr/bx/n/12 Po-ten-ci-
  []
 
 
-Underfull \hbox (badness 3482) in paragraph at lines 432--432
+Underfull \hbox (badness 3482) in paragraph at lines 437--437
 \TU/lmr/bx/n/12 jalni uti-caj
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 \TU/lmr/bx/n/12 kvara na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 []\TU/lmr/bx/n/12 Po-ten-ci-jalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 []\TU/lmr/m/n/12 Greška na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 \TU/lmr/m/n/12 strani in-ter-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 \TU/lmr/m/n/12 pre-op-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 439--439
 []\TU/lmr/m/n/12 Kašn-jenje u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 []\TU/lmr/bx/n/12 Komu-ni-kac.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 []\TU/lmr/m/n/12 Za-gušenje
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 \TU/lmr/m/n/12 komu-ni-ka-ci-j-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 []\TU/lmr/m/n/12 Loša kon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 441--441
 []\TU/lmr/m/n/12 Kašn-jenje u
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 \TU/lmr/m/n/12 rada ap-li-ka-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 []\TU/lmr/m/n/12 Ne-otk-ri-vene
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 \TU/lmr/m/n/12 ple-men-ta-ciji
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 []\TU/lmr/m/n/12 Loš kva-li-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--438
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 \TU/lmr/m/n/12 pružanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 443--444
 \TU/lmr/m/n/12 pruže-nom
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 []\TU/lmr/m/n/12 Pres-ta-nak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 \TU/lmr/m/n/12 rada ap-li-ka-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 []\TU/lmr/m/n/12 Ne-otk-ri-vene
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 \TU/lmr/m/n/12 ple-men-ta-ciji
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 []\TU/lmr/m/n/12 Loš kva-li-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--440
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
 \TU/lmr/m/n/12 pružanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 []\TU/lmr/m/n/12 Ne-za-do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 \TU/lmr/m/n/12 vol-jstvo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 \TU/lmr/m/n/12 pruže-nom
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []\TU/lmr/bx/n/12 Me-tod
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 \TU/lmr/bx/n/12 de-tekcije
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []\TU/lmr/bx/n/12 Oz-bil-j-nost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []\TU/lmr/bx/n/12 Uče-sta-lost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 []\TU/lmr/bx/n/12 Vje-ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 \TU/lmr/bx/n/12 vat-noća
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--451
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
 \TU/lmr/bx/n/12 otk-ri-vanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 []\TU/lmr/bx/n/12 Pri-o-ri-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 451--452
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
 \TU/lmr/bx/n/12 opa-s-nosti
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 []\TU/lmr/m/n/12 Gu-bi-tak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \TU/lmr/m/n/12 ko-nek-cije
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 455--455
+Underfull \hbox (badness 4254) in paragraph at lines 460--460
 \TU/lmr/m/n/12 mat prim-l-je-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 462--462
 []\TU/lmr/m/n/12 Pri-java od
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 457--457
+Underfull \hbox (badness 6032) in paragraph at lines 462--462
 \TU/lmr/m/n/12 strane ko-ris-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 464--464
 []\TU/lmr/m/n/12 Pri-java od
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 459--459
+Underfull \hbox (badness 6173) in paragraph at lines 464--464
 \TU/lmr/m/n/12 strane ko-no-
  []
 
 [21]
-<fmeca.png, id=271, 772.38562pt x 490.08093pt>
+<fmeca.png, id=272, 772.38562pt x 490.08093pt>
 File: fmeca.png Graphic file (type png)
 <use fmeca.png>
-Package luatex.def Info: fmeca.png  used on input line 472.
+Package luatex.def Info: fmeca.png  used on input line 477.
 (luatex.def)             Requested size: 463.43494pt x 294.05083pt.
 
-Overfull \hbox (36.0034pt too wide) in paragraph at lines 472--473
+Overfull \hbox (36.0034pt too wide) in paragraph at lines 477--478
  [][] 
  []
 
 [22<./fmeca.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 []\TU/lmr/bx/n/12 Kom-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 []\TU/lmr/bx/n/12 Pre-por-uka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 \TU/lmr/bx/n/12 za po-bol-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 []\TU/lmr/bx/n/12 Oz-bil-j-nost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 []\TU/lmr/bx/n/12 Uče-sta-lost
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 []\TU/lmr/bx/n/12 Vje-ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 \TU/lmr/bx/n/12 vat-noća
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--484
+Underfull \hbox (badness 10000) in paragraph at lines 489--489
 \TU/lmr/bx/n/12 otk-ri-vanja
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 []\TU/lmr/bx/n/12 Pri-o-ri-tet
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
 \TU/lmr/bx/n/12 opa-s-nosti
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 486--486
+Underfull \hbox (badness 2653) in paragraph at lines 491--491
 \TU/lmr/m/n/12 ha-nička kon-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--486
+Underfull \hbox (badness 10000) in paragraph at lines 491--491
 []\TU/lmr/m/n/12 Kva-li-tet-niji
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\TU/lmr/m/n/12 Upra-vl-jačka
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
 []\TU/lmr/m/n/12 Bolji mi-kro-
  []
 
 
-Underfull \hbox (badness 4899) in paragraph at lines 490--490
+Underfull \hbox (badness 4899) in paragraph at lines 495--495
 []\TU/lmr/m/n/12 Sen-zor udal-
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 490--490
+Underfull \hbox (badness 1642) in paragraph at lines 495--495
 []\TU/lmr/m/n/12 Do-datni sen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--490
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
 \TU/lmr/m/n/12 zori udal-je-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 []\TU/lmr/m/n/12 Kva-li-tet-niji
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 \TU/lmr/m/n/12 mo-tori sa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--492
+Underfull \hbox (badness 10000) in paragraph at lines 497--497
 \TU/lmr/m/n/12 za-sebnim
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 []\TU/lmr/m/n/12 Pro-fe-si-o-nalno
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--494
+Underfull \hbox (badness 10000) in paragraph at lines 499--499
 \TU/lmr/m/n/12 izrađena
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 []\TU/lmr/m/n/12 Ska-la-bilna
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 496--496
+Underfull \hbox (badness 3690) in paragraph at lines 501--501
 \TU/lmr/m/n/12 mreža i do-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
+Underfull \hbox (badness 10000) in paragraph at lines 501--501
 \TU/lmr/m/n/12 bar in-ter-net
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 []\TU/lmr/m/n/12 Komu-ni-kac.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 []\TU/lmr/m/n/12 Si-gur-niji i
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 \TU/lmr/m/n/12 pou-z-da-niji
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--498
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 \TU/lmr/m/n/12 im-ple-men-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
 []\TU/lmr/m/n/12 Pro-fe-si-o-nalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
 \TU/lmr/m/n/12 de-ve-lo-peri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+Underfull \hbox (badness 10000) in paragraph at lines 505--505
 \TU/lmr/m/n/12 za ra-z-voj
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 []\TU/lmr/m/n/12 Pro-fe-si-o-nalni
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 \TU/lmr/m/n/12 de-ve-lo-peri
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--502
+Underfull \hbox (badness 10000) in paragraph at lines 507--507
 \TU/lmr/m/n/12 za ra-z-voj
  []
 
 
-Overfull \hbox (71.35976pt too wide) in paragraph at lines 482--505
+Overfull \hbox (71.35976pt too wide) in paragraph at lines 487--510
 [][] 
  []
 
 [23]
-<fmecaBolji.png, id=285, 773.13844pt x 491.58656pt>
+<fmecaBolji.png, id=286, 773.13844pt x 491.58656pt>
 File: fmecaBolji.png Graphic file (type png)
 <use fmecaBolji.png>
-Package luatex.def Info: fmecaBolji.png  used on input line 514.
+Package luatex.def Info: fmecaBolji.png  used on input line 519.
 (luatex.def)             Requested size: 463.88666pt x 294.95421pt.
 
-Overfull \hbox (36.45512pt too wide) in paragraph at lines 514--515
+Overfull \hbox (36.45512pt too wide) in paragraph at lines 519--520
  [][] 
  []
 
 [24<./fmecaBolji.png>]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 529.
+               Default added (so using `tbp') on input line 532.
 
 (load luc: C:/Users/PC/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/l
 mroman5-regular.luc)
-Overfull \hbox (40.33447pt too wide) in paragraph at lines 533--555
+Overfull \hbox (40.33447pt too wide) in paragraph at lines 536--558
  [][][] 
  []
 
 
-Overfull \hbox (40.33455pt too wide) in paragraph at lines 562--584
+Overfull \hbox (40.33455pt too wide) in paragraph at lines 565--587
  [][][] 
  []
 
 
-Overfull \hbox (40.33447pt too wide) in paragraph at lines 591--612
+Overfull \hbox (40.33447pt too wide) in paragraph at lines 594--615
  [][][] 
  []
 
@@ -2607,101 +2526,92 @@ he/generic/fonts/otl/lmroman7-regular.luc) [28
 ] [33
 
 
-] [34] [35]
-<driver_za_motore.png, id=357, 656.4525pt x 742.775pt>
+] [34
+
+
+] [35]
+<driver_za_motore.png, id=384, 656.4525pt x 742.775pt>
 File: driver_za_motore.png Graphic file (type png)
 <use driver_za_motore.png>
-Package luatex.def Info: driver_za_motore.png  used on input line 969.
+Package luatex.def Info: driver_za_motore.png  used on input line 997.
 (luatex.def)             Requested size: 393.87454pt x 445.66843pt.
- [36
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36
 
 
 
 
-<./driver_za_motore.png>] [37] [38]
-<plan_proizvodnje/plan_proizvodnje-50.png, id=374, 421.575pt x 316.18124pt>
+] [37<./driver_za_motore.png>] [38] [39]
+<plan_proizvodnje/plan_proizvodnje-50.png, id=418, 421.575pt x 316.18124pt>
 File: plan_proizvodnje/plan_proizvodnje-50.png Graphic file (type png)
 <use plan_proizvodnje/plan_proizvodnje-50.png>
 Package luatex.def Info: plan_proizvodnje/plan_proizvodnje-50.png  used on input
- line 1049.
-(luatex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (18.44409pt too wide) in paragraph at lines 1049--1050
- [][] 
- []
-
-<plan_proizvodnje/plan_garancije-50.png, id=375, 421.575pt x 316.18124pt>
+ line 1080.
+(luatex.def)             Requested size: 189.70699pt x 142.28024pt.
+<plan_proizvodnje/plan_garancije-50.png, id=419, 421.575pt x 316.18124pt>
 File: plan_proizvodnje/plan_garancije-50.png Graphic file (type png)
 <use plan_proizvodnje/plan_garancije-50.png>
 Package luatex.def Info: plan_proizvodnje/plan_garancije-50.png  used on input l
-ine 1055.
-(luatex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (18.44409pt too wide) in paragraph at lines 1055--1056
- [][] 
- []
-
-<plan_proizvodnje/plan_proizvodnje-100.png, id=376, 421.575pt x 316.18124pt>
+ine 1086.
+(luatex.def)             Requested size: 189.70699pt x 142.28024pt.
+<plan_proizvodnje/plan_proizvodnje-100.png, id=420, 421.575pt x 316.18124pt>
 File: plan_proizvodnje/plan_proizvodnje-100.png Graphic file (type png)
 <use plan_proizvodnje/plan_proizvodnje-100.png>
 Package luatex.def Info: plan_proizvodnje/plan_proizvodnje-100.png  used on inpu
-t line 1065.
-(luatex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (18.44409pt too wide) in paragraph at lines 1065--1066
- [][] 
- []
-
-<plan_proizvodnje/plan_garancije-100.png, id=377, 421.575pt x 316.18124pt>
+t line 1097.
+(luatex.def)             Requested size: 189.70699pt x 142.28024pt.
+<plan_proizvodnje/plan_garancije-100.png, id=421, 421.575pt x 316.18124pt>
 File: plan_proizvodnje/plan_garancije-100.png Graphic file (type png)
 <use plan_proizvodnje/plan_garancije-100.png>
 Package luatex.def Info: plan_proizvodnje/plan_garancije-100.png  used on input 
-line 1071.
-(luatex.def)             Requested size: 210.78697pt x 158.09023pt.
-
-Overfull \hbox (18.44409pt too wide) in paragraph at lines 1071--1072
- [][] 
- []
-
-[39
+line 1103.
+(luatex.def)             Requested size: 189.70699pt x 142.28024pt.
+ [40
 
 
 <./plan_proizvodnje/plan_proizvodnje-50.png><./plan_proizvodnje/plan_garancije-5
 0.png><./plan_proizvodnje/plan_proizvodnje-100.png><./plan_proizvodnje/plan_gara
-ncije-100.png>] [40
-
-](load luc: C:/Users/PC/AppData/Local/MiKTeX/2.9/luatex-cache/generic/fonts/otl/
-lmroman10-bold.luc)
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1084--1116
+ncije-100.png>](load luc: C:/Users/PC/AppData/Local/MiKTeX/2.9/luatex-cache/gene
+ric/fonts/otl/lmroman10-bold.luc)
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1117--1151
  [][][] 
  []
 
 [41]
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1127--1159
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1162--1196
  [][][] 
  []
 
 [42]
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1170--1202
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1207--1241
  [][][] 
  []
 
 [43]
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1213--1245
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1252--1286
  [][][] 
  []
 
 [44]
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1256--1288
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1297--1331
  [][][] 
  []
 
 [45]
-Overfull \hbox (43.02771pt too wide) in paragraph at lines 1298--1330
+Overfull \hbox (43.02771pt too wide) in paragraph at lines 1341--1375
  [][][] 
  []
 
-[46] [47
+[46]
+Overfull \hbox (0.31934pt too wide) in paragraph at lines 1385--1386
+[]\TU/lmr/m/n/12 Ci-jena uređaja za slučaj proi-z-vod-nje 50 je-di-nica je 35
+00 KM kod svakog rješenja 
+ []
+
+[47
 
 
 
@@ -2714,16 +2624,9 @@ Overfull \hbox (43.02771pt too wide) in paragraph at lines 1298--1330
 
 
 
-] [48] [49] [50] [51
 
-
-
-
-
-
-
-] (./psi-seminarski.bbl(load luc: C:/Users/PC/AppData/Local/MiKTeX/2.9/luatex-ca
-che/generic/fonts/otl/lmmono12-regular.luc)
+] [48] [49] [50] (./psi-seminarski.bbl(load luc: C:/Users/PC/AppData/Local/MiKTe
+X/2.9/luatex-cache/generic/fonts/otl/lmmono12-regular.luc)
 Underfull \hbox (badness 1515) in paragraph at lines 4--11
 \TU/lmr/m/n/12 Your Face On It At This Lon-don Cafe.  [][]$\TU/lmtt/m/n/12 http
 s://www.bustle.com/p/
@@ -2736,34 +2639,35 @@ ith-[]your-[]face-[]on-[]it-[]at-[]this-[]london-[]cafe-[]7685582$[][]\TU/lmr/m
 /n/12 ,
  []
 
-) [52
+) [51
+
+
+
+
+
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1464.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1464.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1529.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1529.
  (./psi-seminarski.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1464.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1464.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1529.
 Package rerunfilecheck Info: File `psi-seminarski.out' has not changed.
-(rerunfilecheck)             Checksum: 0137E6B7C1249CDFE1992EB1520F6DC0;1716.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1464.
+(rerunfilecheck)             Checksum: 635A49A2EED1F219868180AD9BF2C0AA;1745.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1529.
 )
 
 Here is how much of LuaTeX's memory you used:
- 41274 strings out of 494438
+ 41308 strings out of 494438
  100000,1373583 words of node,token memory allocated
  514 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 1 kern, 9 attribute, 58 glue_spec, 9 attrib
 ute_list, 1 write, 2 pdf_action nodes
-   avail lists: 1:1,2:1623,3:174,4:94,5:299,6:68,7:3902,8:318,9:746,10:19,11:353
+   avail lists: 1:1,2:1623,3:174,4:94,5:302,6:68,7:3904,8:318,9:746,10:20,11:353
 
- 42797 multiletter control sequences out of 65536+200000
+ 42831 multiletter control sequences out of 65536+200000
  71 fonts using 8108495 bytes
- 62i,11n,96p,1049b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,11n,96p,1049b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
 <f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmmono12-regular.otf
 ><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman10-bold.otf>
 <f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman10-regular.ot
@@ -2773,11 +2677,13 @@ tf><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman12-regular
 c.otf><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmroman12-bold
 .otf><f:/program files (x86)/miktex 2.9/fonts/opentype/public/lm/lmromancaps10-r
 egular.otf><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i12.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb>
-Output written on psi-seminarski.pdf (53 pages, 731193 bytes).
+i12.pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<F:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><F:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on psi-seminarski.pdf (52 pages, 772448 bytes).
 
-PDF statistics: 519 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 569 PDF objects out of 1000 (max. 8388607)
  132 named destinations out of 1000 (max. 131072)
  200 words of extra memory for PDF output out of 10000 (max. 100000000)
 

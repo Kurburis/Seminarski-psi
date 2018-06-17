@@ -274,10 +274,12 @@ Pošto će se ovaj sistem koristi u ugostiteljskim objektima gdje se temperatura
 
 \subsection{Zahtjevi za održavanje i podršku}
 \textbf{Gdje će se raditi, na koji način i ko će biti odgovaran za održavanje i popravka sistema?}\\
-Sistem će se popravljati i održavati na mjestu gdje se i koristi, te će popratna dokumentacija kao i jednostavnost sistema omogućiti to da sami korisnik može raditi popravku sistema.
+Sistem će se popravljati i održavati na mjestu gdje se i koristi, te će proizvođač biti odgovoran za popravku.
+%te će popratna dokumentacija kao i jednostavnost sistema omogućiti to da sami korisnik može raditi popravku sistema.
 
 \textbf{Kakve usluge popravke i podrške će pružati proizvođač?}\\
-U slučaju većih kvarova, zbog modularnosti sistema, proizvođač će poslati zamjenske module kako bi se popravio kvar.  
+U slučaju kvarova, proizvođač će ili popravljati pokvarene komponente ili ih potpuno mijenjati. 
+%zbog modularnosti sistema, proizvođač će poslati zamjenske module kako bi se popravio kvar.  
 
 \subsection{Dodatni zahtjevi}
 Pored prethodno pomenutih zahtijeva u ovom poglavlju \'ce biti opisani dodatni zahtijevi koji \'ce biti smjernice prilikom dizajna sistema printera \textit{selfieccina}. Koliko god obra\'cali pa\v{z}nju na performanse sistema, implementaciju efikasnih algoritama za pretvaranje slike u koordinate za printanje kontura lica, optimizaciju kretanja vrha printera potrebno je obratiti pa\v{z}nju na zahtijeve koji su veoma bitni krajnjim korisnicima proizvoda, tj. onima koji ne znaju i koje ne zanima \v{s}ta se to de\v{s}ava unutar printera i mikrokontrolera koji njime upravlja ve\'c ono \v{s}to je vidljivo ljudskom oku i \v{s}to \v{c}ini kupce zadovoljnim.
@@ -317,7 +319,9 @@ QFD proces podrazumijeva formiranje jedne ili vi\v{s}e matrica koje povezuju raz
 \label{hoq}
 \end{figure}
  
-Kako bi se konstruisala uspje\v{s}na \textit{House of Quality}, koja bi olak\v{s}ala proceduru dizajna sistema veoma je bitno dobro definisati zahtijeve i njihove prioritete u po\v{c}etnoj fazi. Na ovaj na\v{c}in se dobija i veoma dobar pregled svih zahtijeva i njihovih tehni\v{c}kih rje\v{s}enja. Tehni\v{c}ke mjere performanse predstavljaju jedan od najbitnijh faktora. One predstavljaju odgovaraju\'cu metriku koja ocjenjuje stepen va\v{z}nosti pojedina\v{c}nih zahtijeva i na taj na\v{c}in predstavlja vodi\v{c} za dizajnera sistema. Izgled House of Quality-a, kao rankirane tehni\v{c}ke mjere performanse za sistem \textit{Selfieccino} su prikazani na sljede\'cim tabelama.
+Kako bi se konstruisala uspje\v{s}na \textit{House of Quality}, koja bi olak\v{s}ala proceduru dizajna sistema veoma je bitno dobro definisati zahtijeve i njihove prioritete u po\v{c}etnoj fazi. Na ovaj na\v{c}in se dobija i veoma dobar pregled svih zahtijeva i njihovih tehni\v{c}kih rje\v{s}enja. Tehni\v{c}ke mjere performanse predstavljaju jedan od najbitnijh faktora. One predstavljaju odgovaraju\'cu metriku koja ocjenjuje stepen va\v{z}nosti pojedina\v{c}nih zahtijeva i na taj na\v{c}in predstavlja vodi\v{c} za dizajnera sistema. Izgled House of Quality-a, kao rankirane tehni\v{c}ke mjere performanse za sistem \textit{Selfieccino} su prikazani na sljede\'cim tabelama. 
+
+U tabeli \ref{tabela ponudjenih rjesenja} se mogu vidjeti ponuđena tehnička rješenja koja su dobivena kao rezultat HoQ analize te FMECA analize iz narednog poglavlja. Nakon što se uradi analiza dizajna za pouzdanost, održivost i Life-cyle cost, bit će moguće odabrati koje od ponuđenih rješenja je najisplativije, te time i rješenje koje treba odabrati. 
 \begin{table}
 \includegraphics[scale=1]{tabela_gornja}
 \caption{Tabela tehničke korelacije}
@@ -342,6 +346,7 @@ Kako bi se konstruisala uspje\v{s}na \textit{House of Quality}, koja bi olak\v{s
 \begin{table}
 \includegraphics[width=\textwidth]{tabela_donja}
 \caption{Tabela ponuđenih tehničkih rješenja}
+\label{tabela ponudjenih rjesenja}
 \end{table}
 
 \clearpage
@@ -516,13 +521,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
 \label{fmeca2}
 \end{figure}
 
-\section{Naredni}
-\subsection{Alokacija zahtjeva}
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
+\subsection{Predložena rješenja i alokacija zahtjeva}
 
+Na osnovu zahtjeva, HoQ i FMECA analiza, predložena su tri moguća rješenja koja se vide na tabelama \ref{tab:rjesenje1}, \ref{tab:rjesenje2} i \ref{tab:rjesenje3}. Prvo rješenje predstavlja mali i brzi printer koji bi bio idealan proizvod za kupce. Drugi proizvod ima slične karakteristike kao prvi. Jedina razlika je u tome što ima veći volumen koji smanjuje vrijeme popravke jer je pristup komponentama olakšan. Treće rješenje je slično kao drugo, ali je razlika u korištenju jeftinijih motora kako bi se smanjila cijena proizvodnje. To zauzvrat ima posljedicu smanjenje srednjeg vremena između dva kvara.
+
+Kao što se može vidjeti u tabelama je urađena također i alokacija zahtjeva za srednje vrijeme između dva kvara kao i  srednjeg vremena popravke koje predstavljaju dijelove dizajna za pouzdanost i održivost.
 \begin{landscape}
 
 
@@ -548,10 +551,10 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{l}{Ukupno:} &       & \multicolumn{1}{r}{287.0813} & \multicolumn{1}{r}{100\%} & \multicolumn{1}{r}{0.580861} & \multicolumn{1}{r}{435} & \multicolumn{1}{r}{183} & \multicolumn{1}{r}{60} \\
     \midrule
-    \multicolumn{9}{c}{Dobiveno: Volumen 15 L, Prosječno vrijeme printa 1 min, minimalan pomjeraj prskalice 0.1 mm} \\
+    \multicolumn{9}{c}{Dobiveno: Volumen 15 L, Prosječno vrijeme printa 30 sec, minimalan pomjeraj prskalice 0.1 mm} \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:rjesenje1}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Alokacija zahtjeva'
@@ -577,10 +580,10 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{l}{Ukupno:} &       & \multicolumn{1}{r}{287.0813} & \multicolumn{1}{r}{100\%} & \multicolumn{1}{r}{0.300478} & \multicolumn{1}{r}{385} & \multicolumn{1}{r}{183} & \multicolumn{1}{r}{60} \\
     \midrule
-    \multicolumn{9}{c}{Dobiveno: Volumen 25 L, Prosječno vrijeme printa 1 min, minimalan pomjeraj prskalice 0.1 mm} \\
+    \multicolumn{9}{c}{Dobiveno: Volumen 25 L, Prosječno vrijeme printa 30 sec, minimalan pomjeraj prskalice 0.1 mm} \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:rjesenje2}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Alokacija zahtjeva'
@@ -605,14 +608,26 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{l}{Ukupno:} &       & \multicolumn{1}{r}{211.2676} & \multicolumn{1}{r}{100\%} & \multicolumn{1}{r}{0.444019} & \multicolumn{1}{r}{335} & \multicolumn{1}{r}{153} & \multicolumn{1}{r}{65} \\
     \midrule
-    \multicolumn{9}{c}{Dobiveno: Volumen 25 L, Prosječno vrijeme printa 2 min, minimalan pomjeraj prskalice 0.2 mm} \\
+    \multicolumn{9}{c}{Dobiveno: Volumen 25 L, Prosječno vrijeme printa 1 min, minimalan pomjeraj prskalice 0.2 mm} \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:rjesenje3}%
 \end{table}%
 
 \end{landscape}
-\subsection{Analiza popravke protiv zamjene komponenti}
+\subsection{Dizajn za održivost}
+\subsubsection{Analiza popravke i zamjene komponenti}
+
+Pošto je jedan od zahtjeva dizajna da se pruža garancije od jedne godine, potrebno je odrediti politiku popravke pokvarenih komponenti. U slučaju kvara potrebno je uračunati:
+\begin{itemize}
+\item Vrijeme popravke i zamjene komponente
+\item Cijena nove komponente i njenih zamjenskih dijelova
+\item Cijena radnika
+\end{itemize}
+
+Za vrijeme zamjene komponente korišten je Mct parametar iz tabela \ref{tab:rjesenje1}, \ref{tab:rjesenje2} i \ref{tab:rjesenje3} na koji je dodan jedan sat koji predstavlja vrijeme dolaska i povratka radnika na lokaciju. Iz tih komponenta je također uzeta i cijena novih komponenti. Za platu radnika je uzeta cifra od 15KM/h. Za cijena zamjenskih komponenti kao i vremena popravke je rađena estimacija na osnovu kompleksnosti same komponente. Pošto vrijeme popravke komponenti nije isto za svako od ponuđenih rješenja, svaka komponenta koja je imala više različitih vremena je dobila više zasebnih analiza. Rezultate analiza mogu se vidjeti na tabelama \ref{tab:popravka1}, \ref{tab:popravka2}, \ref{tab:popravka3}, \ref{tab:popravka4}, \ref{tab:popravka5}, \ref{tab:popravka6}, \ref{tab:popravka7}, \ref{tab:popravka8}, \ref{tab:popravka9}, \ref{tab:popravka10}, \ref{tab:popravka11}, \ref{tab:popravka12}, \ref{tab:popravka13}.
+
+Na kraju je nađena optimalna politika popravke i zamjene komponenti. Tabela sa rezultatom te analize se može vidjeti na \ref{tab:odrzavanje-rjesnje}. Ispostavlja se da je najispaltivije popravljati skupe komponente (motor i okvir), a ostale samo zamjenjivati.
 \begin{landscape}
 \vspace*{\fill}
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -632,7 +647,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 54    & 39    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka1}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -653,7 +668,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 59    & 29    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka2}%
 \end{table}%
 \vspace*{\fill}
 \end{landscape}
@@ -678,7 +693,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 98    & 282   &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka3}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -699,7 +714,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 90    & 273   &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka4}%
 \end{table}%
 \vspace*{\fill}
 \end{landscape}
@@ -724,7 +739,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 115   & 282   &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka5}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -745,7 +760,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 72    & 122   &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka6}%
 \end{table}%
 \vspace*{\fill}
 \end{landscape}
@@ -770,7 +785,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 42    & 72    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka7}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -791,7 +806,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 58    & 46    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka8}%
 \end{table}%
 
     \vspace*{\fill}
@@ -817,7 +832,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 58    & 43    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka9}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -838,7 +853,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 90    & 51    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka10}%
 \end{table}%
 \vspace*{\fill}
 \end{landscape}
@@ -863,9 +878,14 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 46    & 45    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka11}%
 \end{table}%
 
+\vspace*{\fill}
+\end{landscape}
+
+\begin{landscape}
+\vspace*{\fill}
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
 \begin{table}[htbp]
   \centering
@@ -884,7 +904,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 46    & 25    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka12}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Analiza maintainability '
@@ -905,7 +925,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Ukupno: & 46    & 22    &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:popravka13}%
 \end{table}%
 
 \vspace*{\fill}
@@ -959,15 +979,24 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     Cijena odabrane metode (KM): & \multicolumn{3}{c}{365} \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:odrzavanje-rjesnje}%
 \end{table}
 
 \end{landscape}
 \clearpage
-\subsection{Rezervni dijelovi u skladištu}
+\subsubsection{Broj dijelova u skladištu}
+Kako bi bilo moguće raditi popravku uređaja, potrebno je imati određeni broj komponenti u skladištu spreman za korištenje. Za određivanje tog broja korištena je grafička analiza objašnjena u \cite{babuka}. Primjer analize se može vidjeti na slici \ref{slika_rezerve}. Za svaku komponentu je određen $K\lambda T$, gdje je K broj dijelova koji se treba servisirati, $\lambda = \frac{1}{MTBF}$, a T period koji će uređaji raditi između dva trenutka ponovnog nabavka komponenti za skladište. U našem slučaju, uzeto je da je $K = 50$ ili $K = 100$, a kako bi se izračunalo T, pretpostavljeno je da uređaji rade 6h dnevno, 7 dana u sedmici, a da je period između nabavke komponenti za skladište 3 mjeseca. Tako da se dobije $T = 6h \cdot 90$. Kao što je moguće vidjeti na slici \ref{slika_rezerve}, spominje se i vjerovatnoća da  će biti dovoljno komponenti u slučaju potrebe. Za tu vjerovatnoću u proračunu je uzeto 90\%. 
+
+Analiza se radi tako što se napravi linija između $K\lambda T$ ose i ose vjerovatnoće. Tačka u kojoj ta linija presiječe osu broja dijelova predstavlja potreban broj rezervnih dijelova. Ova analiza je rađena za svako od ponuđenih rješenja. Rezultat analize ustvari predstavlja cijenu punog skladišta sa potrebnim dijelovima. Tražene tabele se mogu vidjeti na \ref{tab:rezerve1} i \ref{tab:rezerve2}. Za cijenu su uzimane vrijednosti kupovine novih komponenti za motore i okvir, mada je dobiveno da je njih jeftinije popravljati iz dva razloga:
+\begin{itemize}
+\item Neće uvijek biti moguće popraviti motore i okvir
+\item Razlika u novcu nije toliko velika, a dobiva se kao rezultat analiza najgoreg slučaja
+\end{itemize}
+
 \begin{figure}[!h]
 \includegraphics[scale=0.6]{driver_za_motore.png}
 \caption{Grafički način određivanja broja potrebnog broja rezervnih komponenti}
+\label{slika_rezerve}
 \end{figure}
 
 \begin{landscape}
@@ -1010,7 +1039,7 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \multicolumn{2}{c}{Cijena prve nabavke (KM):} & 8500  & 16640 &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:rezerve1}%
 \end{table}%
 
 % Table generated by Excel2LaTeX from sheet 'Broj rezervnih dijelova'
@@ -1035,46 +1064,50 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \multicolumn{2}{c}{Cijena prve nabavke (KM):} & 9590  & 15690 &  \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{tab:rezerve2}%
 \end{table}%
 
 \end{landscape}
-\subsection{Lifecycle cost analiza}
+\subsection{Life-cycle cost analiza}
+Kako bi se odredila profitabilnost projekta potrebno je utvrditi sve troškove i prihode. LCC anliza upravo služi za određivanje troškova tokom čitavog perioda proizvodnje i podrške. Uzeta su dva slučaja. U prvom slučaju se proizvodi 50 uređaja godišnje (slika \ref{plan50}), a u drugom 100 (slika \ref{plan100}). Proizvodnja traje 8 godina. Povećan broj uređaja znači i veći prihodi, međutim to povlači za sobom i veći broj jedinica za održavanje, tako da je moguće da će manji broj proizvedenih jedinica povećati profitabilnost. Rezultat analize se može vidjeti na tabelama \ref{rj1_50}, \ref{rj1_100}, \ref{rj2_50}, \ref{rj2_100}, \ref{rj3_50}, \ref{rj3_100}.
+
 
 
 \begin{figure*}[ht!]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\includegraphics[scale = 0.5]{plan_proizvodnje/plan_proizvodnje-50}
+		\includegraphics[scale = 0.45]{plan_proizvodnje/plan_proizvodnje-50}
 		\caption{Ukupan broj proizvedenih jedinica kod proizvodnje 50 jedinica godišnje}
     \end{subfigure}%
     ~ 
     \begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\includegraphics[scale = 0.5]{plan_proizvodnje/plan_garancije-50}
+		\includegraphics[scale = 0.45]{plan_proizvodnje/plan_garancije-50}
 		\caption{Ukupan broj jedinica pod garancijom kod proizvodnje 50 jedinica godišnje}
     \end{subfigure}
-    \caption{Svašta nešto}
+    \caption{Plan proizvodnje i plan garancije za 50 jedinica proizvedenih godišnje}
+    \label{plan50}
 \end{figure*}
 
 \begin{figure*}[ht!]
     \centering
     \begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\includegraphics[scale = 0.5]{plan_proizvodnje/plan_proizvodnje-100}
+		\includegraphics[scale = 0.45]{plan_proizvodnje/plan_proizvodnje-100}
 		\caption{Ukupan broj proizvedenih jedinica kod proizvodnje 100 jedinica godišnje}
     \end{subfigure}%
     ~ 
     \begin{subfigure}[t]{0.45\textwidth}
 		\centering
-		\includegraphics[scale = 0.5]{plan_proizvodnje/plan_garancije-100}
+		\includegraphics[scale = 0.45]{plan_proizvodnje/plan_garancije-100}
 		\caption{Ukupan broj jedinica pod garancijom kod proizvodnje 100 jedinica godišnje}
     \end{subfigure}
-    \caption{Svašta nešto}
+    \caption{Plan proizvodnje i plan garancije za 100 jedinica proizvedenih godišnje}
+    \label{plan100}
 \end{figure*}
 \clearpage
-\subsubsection{Analiza troškova}
+
 \begin{landscape}
 % Table generated by Excel2LaTeX from sheet 'Life Cycle cost analiza'
 \begin{table}[htbp]
@@ -1090,8 +1123,9 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1109,10 +1143,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 118250 & 109500 & 109500 & 109500 & 109500 & 109500 & 109500 & 109500 & 109500 & \textbf{994250} \\
     \midrule
-    \textbf{Ukupno:} & 151000 & 141000 & 139750 & 139750 & 139750 & 139750 & 139750 & 139750 & 115500 & \textbf{1246000} \\
+    \textbf{Ukupno:} & 153000 & 143000 & 141750 & 141750 & 141750 & 141750 & 141750 & 141750 & 117500 & \textbf{1264000} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj1_50}%
 \end{table}%
 
 \end{landscape}
@@ -1133,8 +1168,9 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1152,10 +1188,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 152040 & 135000 & 135000 & 135000 & 135000 & 135000 & 135000 & 135000 & 135000 & \textbf{1232040} \\
     \midrule
-    \textbf{Ukupno:} & 209040 & 190750 & 189500 & 189500 & 189500 & 189500 & 189500 & 189500 & 141000 & \textbf{1677790} \\
+    \textbf{Ukupno:} & 211040 & 192750 & 191500 & 191500 & 191500 & 191500 & 191500 & 191500 & 143000 & \textbf{1695790} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj1_100}%
 \end{table}%
 
 \end{landscape}
@@ -1172,12 +1209,13 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \multicolumn{1}{c}{\multirow{2}[4]{*}{Aktivnost}} & \multicolumn{9}{c}{Cijena programa po godini}                         & \multicolumn{1}{c}{\multirow{2}[4]{*}{Total}} \\
 \cmidrule{2-10}          & 1     & 2     & 3     & 4     & 5     & 6     & 7     & 8     & 9     &  \\
     \midrule
-    \textbf{1. Istraživanje i razvoj} &       &       &       &       &       &       &       &       &       & 0 \\
+\textbf{1. Istraživanje i razvoj} &       &       &       &       &       &       &       &       &       & 0 \\
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1195,10 +1233,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 117500 & 109000 & 109000 & 109000 & 109000 & 109000 & 109000 & 109000 & 109000 & \textbf{989500} \\
     \midrule
-    \textbf{Ukupno:} & 147750 & 138000 & 136750 & 136750 & 136750 & 136750 & 136750 & 136750 & 115000 & \textbf{1221250} \\
+    \textbf{Ukupno:} & 149750 & 140000 & 138750 & 138750 & 138750 & 138750 & 138750 & 138750 & 117000 & \textbf{1239250} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj2_50}%
 \end{table}%
 
 \end{landscape}
@@ -1219,8 +1258,9 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1238,10 +1278,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 150640 & 134000 & 134000 & 134000 & 134000 & 134000 & 134000 & 134000 & 134000 & \textbf{1222640} \\
     \midrule
-    \textbf{Ukupno:} & 202640 & 165500 & 164250 & 164250 & 164250 & 164250 & 164250 & 164250 & 145000 & \textbf{1498640} \\
+    \textbf{Ukupno:} & 204640 & 167500 & 166250 & 166250 & 166250 & 166250 & 166250 & 166250 & 147000 & \textbf{1516640} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj2_100}%
 \end{table}%
 
 \end{landscape}
@@ -1262,8 +1303,9 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1281,10 +1323,11 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 124290 & 114700 & 114700 & 114700 & 114700 & 114700 & 114700 & 114700 & 114700 & \textbf{1041890} \\
     \midrule
-    \textbf{Ukupno:} & 152040 & 141200 & 139950 & 139950 & 139950 & 139950 & 139950 & 139950 & 120700 & \textbf{1253640} \\
+    \textbf{Ukupno:} & 154040 & 143200 & 141950 & 141950 & 141950 & 141950 & 141950 & 141950 & 122700 & \textbf{1271640} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj3_50}%
 \end{table}%
 
 \end{landscape}
@@ -1300,12 +1343,13 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \multicolumn{1}{c}{\multirow{2}[4]{*}{Aktivnost}} & \multicolumn{9}{c}{Cijena programa po godini}                         & \multicolumn{1}{c}{\multirow{2}[4]{*}{Total}} \\
 \cmidrule{2-10}          & 1     & 2     & 3     & 4     & 5     & 6     & 7     & 8     & 9     &  \\
     \midrule
-    \textbf{1. Istraživanje i razvoj} &       &       &       &       &       &       &       &       &       & 0 \\
+\textbf{1. Istraživanje i razvoj} &       &       &       &       &       &       &       &       &       & 0 \\
     1.1. Dizajn za održivost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.2. Dizajn za pouzdanost & 500   & 500   &       &       &       &       &       &       &       & 1000 \\
     1.3 Komponente za prvi prototip & 1000  &       &       &       &       &       &       &       &       & 1000 \\
+    1.4 Software & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 18000 \\
     \midrule
-    \textbf{Ukupno po katergoriji:} & 2000  & 1000  & 0     & 0     & 0     & 0     & 0     & 0     & 0     & \textbf{3000} \\
+    \textbf{Ukupno po katergoriji:} & 4000  & 3000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & 2000  & \textbf{21000} \\
     \midrule
     \textbf{2. Proizvodnja/konstrukcija} &       &       &       &       &       &       &       &       &       & 0 \\
     2.1 Iznajmljivanje prostora & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 6000  & 54000 \\
@@ -1323,14 +1367,30 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
     \textbf{Ukupno po kategoriji:} & 161090 & 145400 & 145400 & 145400 & 145400 & 145400 & 145400 & 145400 & 145400 & \textbf{1324290} \\
     \midrule
-    \textbf{Ukupno:} & 208090 & 191150 & 189900 & 189900 & 189900 & 189900 & 189900 & 189900 & 151400 & \textbf{1690040} \\
+    \textbf{Ukupno:} & 210090 & 193150 & 191900 & 191900 & 191900 & 191900 & 191900 & 191900 & 153400 & \textbf{1708040} \\
+
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{rj3_100}%
 \end{table}%
 \end{landscape}
 
-\subsubsection{Krajnja analiza profita}
+\subsection{Analiza profitabilnosti}
+Na osnovu svih prijašnjih analiza na kraju je moguće ustanoviti profitabilnost projekta. Kao što je viđeno u prijašnjim poglavljima, za svako rješenje je rađena analiza za slučaj proizvodnje 50 i za slučaj proizvodnje 100 jedinica godišnje. 
+
+U analizi profitabilnosti je korištena vrijednost diskontnog faktora od 7\%. Jedina nepoznanica ostaje određivanje cijene konačnog proizvoda. Pošto je minimalna cijena također jedan od zahtjeva, za svaki od 6 različitih slučajeva je cijena iterativno povećevana za 500 KM sve dok na krajnjem rasponu od 9 godina ne bi ostvarili profit. Rezultat te analize se može vidjeti na tabelama \ref{profit1}, \ref{profit2} i \ref{profit3}.
+
+Mogu se donijeti sljedeći zaključci
+\begin{itemize}
+\item Cijena uređaja za slučaj proizvodnje 50 jedinica je 3500 KM kod svakog rješenja
+\item Cijena uređaja za slučaj proizvodnje 100 jedinica je 2500 KM kod svakog rješenja
+\item Proizvodnja većeg broja uređaja je u svakom slučaju profitabilnija
+\item Rješenje 2 je najprofitabilnije od svih rješenja.
+\item Mada je rješenje 3 jeftinije za proizvodnju od rješenja 2, cijena vezana za pouzdanost i održavanje manje pouzdanih komponenti je više nego nadoknadila razliku
+\item Ni jedno rješenje nije jeftinije od konkurentskog rješenja
+\end{itemize}
+
+
 \begin{landscape}
 % Table generated by Excel2LaTeX from sheet 'LCC analiza 2'
 \begin{table}[htbp]
@@ -1342,32 +1402,35 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{50} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{3000} \\
     \midrule
-    0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 150000 & -151000 & -1000 & 0.934579439 & -934.5794393 & -100935 \\
-    2     & 150000 & -141000 & 9000  & 0.873438728 & 7860.948554 & -93073.6 \\
-    3     & 150000 & -139750 & 10250 & 0.816297877 & 8367.053238 & -84706.6 \\
-    4     & 150000 & -139750 & 10250 & 0.762895212 & 7819.675923 & -76886.9 \\
-    5     & 150000 & -139750 & 10250 & 0.712986179 & 7308.10834 & -69578.8 \\
-    6     & 150000 & 139750 & 289750 & 0.666342224 & 193072.6594 & 123493.9 \\
-    7     & 150000 & -139750 & 10250 & 0.622749742 & 6383.184854 & 129877.1 \\
-    8     & 150000 & -139750 & 10250 & 0.582009105 & 5965.593322 & 135842.6 \\
-    9     & 0     & -115500 & -115500 & 0.543933743 & -62824.34727 & \textbf{73018.3} \\
+0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
+    1     & 175000 & -153000 & 22000 & 0.934579439 & 20560.74766 & -79439.3 \\
+    2     & 175000 & -143000 & 32000 & 0.873438728 & 27950.0393 & -51489.2 \\
+    3     & 175000 & -141750 & 33250 & 0.816297877 & 27141.90441 & -24347.3 \\
+    4     & 175000 & -141750 & 33250 & 0.762895212 & 25366.2658 & {\textbf{1018.957}} \\
+    5     & 175000 & -141750 & 33250 & 0.712986179 & 23706.79047 & {\textbf{24725.75}} \\
+    6     & 175000 & -141750 & 33250 & 0.666342224 & 22155.87894 & {\textbf{46881.63}} \\
+    7     & 175000 & -141750 & 33250 & 0.622749742 & 20706.42892 & {\textbf{67588.06}} \\
+    8     & 175000 & -141750 & 33250 & 0.582009105 & 19351.80273 & {\textbf{86939.86}} \\
+    \midrule
+    9     & 0     & -117500 & -117500 & 0.543933743 & -63912.21475 & \textbf{23027.64} \\
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{100} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{2500} \\
     \midrule
     0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 250000 & -209040 & 40960 & 0.934579439 & 38280.37383 & -61719.6 \\
-    2     & 250000 & -190750 & 59250 & 0.873438728 & 51751.24465 & -9968.38 \\
-    3     & 250000 & -189500 & 60500 & 0.816297877 & 49386.02155 & 39417.64 \\
-    4     & 250000 & -189500 & 60500 & 0.762895212 & 46155.16033 & 85572.8 \\
-    5     & 250000 & -189500 & 60500 & 0.712986179 & 43135.66386 & 128708.5 \\
-    6     & 250000 & -189500 & 60500 & 0.666342224 & 40313.70454 & 169022.2 \\
-    7     & 250000 & -189500 & 60500 & 0.622749742 & 37676.35938 & 206698.5 \\
-    8     & 250000 & -189500 & 60500 & 0.582009105 & 35211.55083 & 241910.1 \\
-    9     & 0     & -141000 & -141000 & 0.543933743 & -76694.6577 & \textbf{165215.4} \\
+    1     & 250000 & -211040 & 38960 & 0.934579439 & 36411.21495 & -63588.8 \\
+    2     & 250000 & -192750 & 57250 & 0.873438728 & 50004.36719 & -13584.4 \\
+    3     & 250000 & -191500 & 58500 & 0.816297877 & 47753.4258 & \textbf{34169.01} \\
+    4     & 250000 & -191500 & 58500 & 0.762895212 & 44629.3699 & \textbf{78798.38} \\
+    5     & 250000 & -191500 & 58500 & 0.712986179 & 41709.6915 & \textbf{120508.1} \\
+    6     & 250000 & -191500 & 58500 & 0.666342224 & 38981.02009 & \textbf{159489.1} \\
+    7     & 250000 & -191500 & 58500 & 0.622749742 & 36430.8599 & \textbf{195919.9} \\
+    8     & 250000 & -191500 & 58500 & 0.582009105 & 34047.53262 & \textbf{229967.5} \\
+    \midrule
+    9     & 0     & -143000 & -143000 & 0.543933743 & -77782.52519 & \textbf{152185} \\
+  
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{profit1}%
 \end{table}%
 
 \end{landscape}
@@ -1383,32 +1446,35 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{50} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{3500} \\
     \midrule
-    0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 175000 & -147750 & 27250 & 0.934579439 & 25467.28972 & -74532.7 \\
-    2     & 175000 & -138000 & 37000 & 0.873438728 & 32317.23295 & -42215.5 \\
-    3     & 175000 & -136750 & 38250 & 0.816297877 & 31223.39379 & -10992.1 \\
-    4     & 175000 & -136750 & 38250 & 0.762895212 & 29180.74186 & 18188.66 \\
-    5     & 175000 & -136750 & 38250 & 0.712986179 & 27271.72137 & 45460.38 \\
-    6     & 175000 & -136750 & 38250 & 0.666342224 & 25487.59006 & 70947.97 \\
-    7     & 175000 & -136750 & 38250 & 0.622749742 & 23820.17763 & 94768.15 \\
-    8     & 175000 & -136750 & 38250 & 0.582009105 & 22261.84825 & 117030 \\
-    9     & 0     & -115000 & -115000 & 0.543933743 & -62552.3804 & \textbf{54477.62} \\
+0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
+    1     & 175000 & -149750 & 25250 & 0.934579439 & 23598.13084 & -76401.9 \\
+    2     & 175000 & -140000 & 35000 & 0.873438728 & 30570.35549 & -45831.5 \\
+    3     & 175000 & -138750 & 36250 & 0.816297877 & 29590.79804 & -16240.7 \\
+    4     & 175000 & -138750 & 36250 & 0.762895212 & 27654.95144 & \textbf{11414.24} \\
+    5     & 175000 & -138750 & 36250 & 0.712986179 & 25845.74901 & \textbf{37259.98} \\
+    6     & 175000 & -138750 & 36250 & 0.666342224 & 24154.90561 & \textbf{61414.89} \\
+    7     & 175000 & -138750 & 36250 & 0.622749742 & 22574.67814 & \textbf{83989.57} \\
+    8     & 175000 & -138750 & 36250 & 0.582009105 & 21097.83004 & \textbf{105087.4} \\
+    \midrule
+    9     & 0     & -117000 & -117000 & 0.543933743 & -63640.24788 & \textbf{41447.15} \\
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{100} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{2500} \\
     \midrule
     0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 250000 & -202640 & 47360 & 0.934579439 & 44261.68224 & -55738.3 \\
-    2     & 250000 & -165500 & 84500 & 0.873438728 & 73805.57254 & 18067.25 \\
-    3     & 250000 & -164250 & 85750 & 0.816297877 & 69997.54294 & 88064.8 \\
-    4     & 250000 & -164250 & 85750 & 0.762895212 & 65418.26443 & 153483.1 \\
-    5     & 250000 & -164250 & 85750 & 0.712986179 & 61138.56489 & 214621.6 \\
-    6     & 250000 & -164250 & 85750 & 0.666342224 & 57138.84569 & 271760.5 \\
-    7     & 250000 & -164250 & 85750 & 0.622749742 & 53400.79037 & 325161.3 \\
-    8     & 250000 & -164250 & 85750 & 0.582009105 & 49907.28072 & 375068.5 \\
-    9     & 0     & -145000 & -145000 & 0.543933743 & -78870.39267 & \textbf{296198.2} \\
+    1     & 250000 & -204640 & 45360 & 0.934579439 & 42392.52336 & -57607.5 \\
+    2     & 250000 & -167500 & 82500 & 0.873438728 & 72058.69508 & \textbf{14451.22} \\
+    3     & 250000 & -166250 & 83750 & 0.816297877 & 68364.94719 & \textbf{82816.17} \\
+    4     & 250000 & -166250 & 83750 & 0.762895212 & 63892.47401 & \textbf{146708.6} \\
+    5     & 250000 & -166250 & 83750 & 0.712986179 & 59712.59253 & \textbf{206421.2} \\
+    6     & 250000 & -166250 & 83750 & 0.666342224 & 55806.16124 & \textbf{262227.4} \\
+    7     & 250000 & -166250 & 83750 & 0.622749742 & 52155.29088 & \textbf{314382.7} \\
+    8     & 250000 & -166250 & 83750 & 0.582009105 & 48743.26251 & \textbf{363125.9} \\
+    \midrule
+    9     & 0     & -147000 & -147000 & 0.543933743 & -79958.26016 & \textbf{283167.7} \\
+    
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{profit2}%
 \end{table}%
 \end{landscape}
 
@@ -1423,40 +1489,39 @@ Na slici \ref{fmeca2} je prikazana pobolj\v{s}ana verzija RPN-a za funkcionalne 
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{50} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{3500} \\
     \midrule
-    0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 175000 & -152040 & 22960 & 0.934579439 & 21457.94393 & -78542.1 \\
-    2     & 175000 & -141200 & 33800 & 0.873438728 & 29522.22902 & -49019.8 \\
-    3     & 175000 & -139950 & 35050 & 0.816297877 & 28611.24059 & -20408.6 \\
-    4     & 175000 & -139950 & 35050 & 0.762895212 & 26739.47718 & 6330.891 \\
-    5     & 175000 & -139950 & 35050 & 0.712986179 & 24990.16559 & 31321.06 \\
-    6     & 175000 & -139950 & 35050 & 0.666342224 & 23355.29494 & 54676.35 \\
-    7     & 175000 & -139950 & 35050 & 0.622749742 & 21827.37845 & 76503.73 \\
-    8     & 175000 & -139950 & 35050 & 0.582009105 & 20399.41912 & 96903.15 \\
-    9     & 0     & -120700 & -120700 & 0.543933743 & -65652.80273 & \textbf{31250.35} \\
+0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
+    1     & 175000 & -154040 & 20960 & 0.934579439 & 19588.78505 & -80411.2 \\
+    2     & 175000 & -143200 & 31800 & 0.873438728 & 27775.35156 & -52635.9 \\
+    3     & 175000 & -141950 & 33050 & 0.816297877 & 26978.64483 & -25657.2 \\
+    4     & 175000 & -141950 & 33050 & 0.762895212 & 25213.68676 & -443.532 \\
+    5     & 175000 & -141950 & 33050 & 0.712986179 & 23564.19323 & \textbf{23120.66} \\
+    6     & 175000 & -141950 & 33050 & 0.666342224 & 22022.6105 & \textbf{45143.27} \\
+    7     & 175000 & -141950 & 33050 & 0.622749742 & 20581.87897 & \textbf{65725.15} \\
+    8     & 175000 & -141950 & 33050 & 0.582009105 & 19235.40091 & \textbf{84960.55} \\
+    \midrule
+    9     & 0     & -122700 & -122700 & 0.543933743 & -66740.67022 & \textbf{18219.88} \\
     \midrule
           & \multicolumn{1}{c}{Investicija:} & \multicolumn{1}{c}{100000} & \multicolumn{1}{c}{Broj proizvedenih:} & \multicolumn{1}{c}{100} & \multicolumn{1}{c}{Cijena:} & \multicolumn{1}{c}{2500} \\
     \midrule
     0     & 0     & -100000 & -100000 & 1     & -100000 & -100000 \\
-    1     & 250000 & -208090 & 41910 & 0.934579439 & 39168.2243 & -60831.8 \\
-    2     & 250000 & -191150 & 58850 & 0.873438728 & 51401.86916 & -9429.91 \\
-    3     & 250000 & -189900 & 60100 & 0.816297877 & 49059.5024 & 39629.6 \\
-    4     & 250000 & -189900 & 60100 & 0.762895212 & 45850.00224 & 85479.6 \\
-    5     & 250000 & -189900 & 60100 & 0.712986179 & 42850.46939 & 128330.1 \\
-    6     & 250000 & -189900 & 60100 & 0.666342224 & 40047.16765 & 168377.2 \\
-    7     & 250000 & -189900 & 60100 & 0.622749742 & 37427.25949 & 205804.5 \\
-    8     & 250000 & -189900 & 60100 & 0.582009105 & 34978.74718 & 240783.2 \\
-    9     & 0     & -151400 & -151400 & 0.543933743 & -82351.56863 & \textbf{158431.7} \\
+    1     & 250000 & -210090 & 39910 & 0.934579439 & 37299.06542 & -62700.9 \\
+    2     & 250000 & -193150 & 56850 & 0.873438728 & 49654.9917 & -13045.9 \\
+    3     & 250000 & -191900 & 58100 & 0.816297877 & 47426.90665 & \textbf{34380.96} \\
+    4     & 250000 & -191900 & 58100 & 0.762895212 & 44324.21182 & \textbf{78705.18} \\
+    5     & 250000 & -191900 & 58100 & 0.712986179 & 41424.49703 & \textbf{120129.7} \\
+    6     & 250000 & -191900 & 58100 & 0.666342224 & 38714.4832 & \textbf{158844.2} \\
+    7     & 250000 & -191900 & 58100 & 0.622749742 & 36181.76 & \textbf{195025.9} \\
+    8     & 250000 & -191900 & 58100 & 0.582009105 & 33814.72898 & \textbf{228840.6} \\
+    \midrule
+    9     & 0     & -153400 & -153400 & 0.543933743 & -83439.43611 & \textbf{145401.2} \\
     \bottomrule
     \end{tabular}%
-  \label{tab:addlabel}%
+  \label{profit3}%
 \end{table}%
 
 \end{landscape}
 
-\begin{landscape}
-\vspace*{\fill}
-\vspace*{\fill}
-\end{landscape}
+\section{Zaključak}
 
 \bibliographystyle{unsrt}
 \bibliography{mybib}

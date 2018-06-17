@@ -15,10 +15,10 @@
 \contentsline {subsubsection}{\numberline {2.7.1}Funkcionalna analiza}{14}{subsubsection.2.7.1}
 \contentsline {subsubsection}{\numberline {2.7.2}Funkcionalna alokacija}{14}{subsubsection.2.7.2}
 \contentsline {subsection}{\numberline {2.8}FMECA analiza}{17}{subsection.2.8}
-\contentsline {section}{\numberline {3}Naredni}{24}{section.3}
-\contentsline {subsection}{\numberline {3.1}Alokacija zahtjeva}{24}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Analiza popravke protiv zamjene komponenti}{27}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Rezervni dijelovi u skladištu}{36}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Lifecycle cost analiza}{39}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}Analiza troškova}{40}{subsubsection.3.4.1}
-\contentsline {subsubsection}{\numberline {3.4.2}Krajnja analiza profita}{47}{subsubsection.3.4.2}
+\contentsline {subsection}{\numberline {2.9}Predložena rješenja i alokacija zahtjeva}{24}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}Dizajn za održivost}{27}{subsection.2.10}
+\contentsline {subsubsection}{\numberline {2.10.1}Analiza popravke i zamjene komponenti}{27}{subsubsection.2.10.1}
+\contentsline {subsubsection}{\numberline {2.10.2}Broj dijelova u skladištu}{36}{subsubsection.2.10.2}
+\contentsline {subsection}{\numberline {2.11}Life-cycle cost analiza}{40}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}Analiza profitabilnosti}{47}{subsection.2.12}
+\contentsline {section}{\numberline {3}Zaključak}{51}{section.3}
